@@ -4,9 +4,35 @@ Here you can find the best-known solutions (BKS) for the PDPTW instances. Below,
 
 For each solution, there is a detailed solution file available. In the following tables, it is presented the name of the instance, the number of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.
 
+<details><summary>100 locations</summary>
+<p>
+
  Instance | Vehicles | Cost | Reference | Date
  :------: | -------: | ---: | :-------: | ---:
  bar-n100-1 | xx | yyyy | SB | 30-jan-19
+
+</p>
+</details>
+
+<details><summary>200 locations</summary>
+<p>
+
+ Instance | Vehicles | Cost | Reference | Date
+ :------: | -------: | ---: | :-------: | ---:
+ bar-n200-1 | xx | yyyy | SB | 30-jan-19
+
+</p>
+</details>
+
+<details><summary>400 locations</summary>
+<p>
+
+ Instance | Vehicles | Cost | Reference | Date
+ :------: | -------: | ---: | :-------: | ---:
+ bar-n400-1 | xx | yyyy | SB | 30-jan-19
+
+</p>
+</details>
 
 
  ## References
