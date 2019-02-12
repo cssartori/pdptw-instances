@@ -6,7 +6,8 @@ The 300 instance files are too large to be stored in this git repository, unfort
 
 Below you find the list of links to download each one of the instance groups per total number of locations (the so-called size of the instance). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, 5000. Each group contains exactly 25 instances distributed in four cities (Barcelona, Berlin, New York, and Porto Alegre) with a wide range of configurations.
 
-TODO: add link list
+[100 locations](https://drive.google.com/open?id=1pH9CIFFpYm3PDxHyVYzxd-6OgrCYX-lN)
+[200 locations](https://drive.google.com/open?id=1GEc8Xj1i6fRlr8NEcVy3yzJGLQ2HT4Eo)
 
 ## File description
 
