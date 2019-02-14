@@ -8,15 +8,15 @@ This repository was inspired by others in the combinatorial optimization and ope
 
 ## Instance files
 
-Information on how to obtain the 300 files containing the definiton of the instances in the set are available under the folder *instances/*
+Information on how to obtain the 300 files containing the definiton of the instances in the set are available under the folder [instances/](https://github.com/cssartori/pdptw-instances/tree/master/instances)
 
 ## Best-known solutions
 
-The detailed best-known solutions for each instance are kept under the folder *solutions/*. The folder keeps tables on best-known values as well, which can be used for comparisons and analyses in future works.
+The detailed best-known solution for each instance is kept under the folder [solutions/](https://github.com/cssartori/pdptw-instances/tree/master/solutions). The folder keeps tables on best-known values as well, which can be used for comparisons and analyses in future works.
 
 ## Validator
 
-The folder *validator/* contains a Python (2.7) script to validate solutions of the new instances. In this way, it is possible to verify if new best-known solutions respect all the constraints imposed by the PDPTW.
+The folder [validator/](https://github.com/cssartori/pdptw-instances/tree/master/validator) contains Python (2.7) scripts to validate solutions for the instances. In this way, it is possible to verify if new best-known solutions respect all the constraints imposed by the PDPTW. The folder also contains a brief explanation about the PDPTW constraints and provides references for those interested in further information.
 
 ## How to contribute new best-known solutions
 
