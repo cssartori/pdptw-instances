@@ -20,4 +20,6 @@ The folder *validator/* contains a Python (2.7) script to validate solutions of 
 
 ## How to contribute new best-known solutions
 
-Anyone can contribute with new best-known solutions for the proposed instances. All that is needed is to submit the solution files containing the new solutions (preferably validated in advance). For the structure of the solution file, please make every effort to make it in the same way as the one detailed in the *solutions/* folder. A published reference to the work that generated the solutions is very much appreciated.
+Anyone can contribute with new best-known solutions for the proposed instances. All that is needed is to submit the solution files containing the new solutions (preferably validated in advance). For the structure of the solution file, please make every effort to have it in the same way as the one detailed in the *solutions/* folder. A published reference to the work that generated the solutions is very much appreciated.
+
+New solutions can be submitted to: cssartori `at` inf  `dot` ufrgs `dot` br
