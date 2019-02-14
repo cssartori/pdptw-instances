@@ -22,10 +22,10 @@ Below you find the list of links to download each group of instance according to
 
 ## File description
 
-Each compressed (.zip) file contains one group of instances and a descriptive README file explaining how the instances should be read, and the information provided in each section of the file. The same description is presented here in the file [how_read.txt](https://github.com/cssartori/pdptw-instances/blob/master/instances/how_read.txt)
+Each compressed (.zip) file contains one group of instances and a descriptive README file explaining how the instances should be read, and the information provided in each section of the file. The same description is presented here in the file [how_to_read.txt](https://github.com/cssartori/pdptw-instances/blob/master/instances/how_to_read.txt)
 
-## Characteristics of individual instances
+## Configurations of the instances
 
-There is both a PDF file and a text file (links) in this folder, which contain the characteristics for each one of the 300 instances. In these files one can find the distribution of locations used for each instance, the city it was generated in, number of clusters and their density (when appropriate), time window width, scheduling horizon, service durations, vehicle capacities, and position of the depot.
+There is a text file [configurations.txt](https://github.com/cssartori/pdptw-instances/blob/master/instances/configurations.txt) in this folder, which contains the characteristics for each one of the 300 instances. The configurations include the distribution of locations used for each instance, the city it was generated in, number of clusters and their density (if appropriate), time window width, scheduling horizon, service durations, vehicle capacities, and position of the depot.
 
 For more information on how the instances were generated, one is referred to my Master's thesis (link) and to the repository of the [instance generator](https://github.com/cssartori/ovig/)
