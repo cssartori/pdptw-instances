@@ -38,6 +38,7 @@ def check_solutions(dir_instances, dir_new_sol):
 	cinvalid = 0 ## counter of invalid solutions
 	for filename in get_list_of_files(dir_new_sol, ".txt"):
 		inst = filename.split("/")[-1].split(".")[0]
+		iname = inst
 		sz = inst.split("-")[1][1:]
 		inst = dir_instances + ("n%s/" % (sz)) + inst + ".txt"
 
@@ -52,7 +53,7 @@ def check_solutions(dir_instances, dir_new_sol):
 			logstr = "%sOK................%s\n" % (logstr, filename)
 			if c[1] != rveh or c[2] != rcst:
 				logstr = "%s...Disagreement...%s\n" % (logstr, filename)
-			vs[inst] = [c[1], c[2]]
+			vs[iname] = [c[1], c[2]]
 
 	return vs,logstr,cinvalid
 

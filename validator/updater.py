@@ -10,8 +10,8 @@ def __prepareargs__():
 	parser.add_argument('-i', nargs=1, type=str, help='Directory with instance files', required=True)
 	parser.add_argument('-r', nargs=1, type=str, help='Reference that generated the solutions', required=True)
 	parser.add_argument('-d', nargs=1, type=str, help='Solultions\' submission date', required=True)
-	parser.add_argument('-b', nargs=1, type=str, help='File with best-known values', required=False, default="newbks.dat")
-	parser.add_argument('-c', nargs=1, type=str, help='Directory with current best-known solution files', required=False, default="solbks")
+	parser.add_argument('-b', nargs=1, type=str, help='File with best-known values', required=False, default="bks.dat")
+	parser.add_argument('-c', nargs=1, type=str, help='Directory with current best-known solution files', required=False, default="../solutions/files/")
     
 	return parser
 
@@ -41,15 +41,19 @@ def read_bks_file(bks_filename):
 		h = f.readline()
 		for line in f:
 			cl = line.split(";")
-			bks[cl[0]] = [cl[0], int(cl[1]), int(cl[2]), int(cl[3]), cl[4], cl[5]]
+			bks[cl[0]] = [cl[0], int(cl[1]), int(cl[2]), int(cl[3]), cl[4], cl[5][:-1]]
 			
 	return bks
 
 def write_bks_file(bks_filename, nbks):
+	##TODO: order by size
 	with open(bks_filename, "w") as f:
-		for sol in nbks:
-			f.write("%s;%d;%d;%d;%s;%s" % (sol[0], sol[1], sol[2], sol[3], sol[4], sol[5]))
+		text = "instance;size;vehicles;cost;reference;date\n"
+		for i in nbks:
+			sol = nbks[i]
+			text = "%s%s;%d;%d;%d;%s;%s\n" % (text, sol[0], sol[1], sol[2], sol[3], sol[4], sol[5])
 
+		f.write(text)
 
 def write_solution_tables(nbks):
 	text = ("# Best-known solutions\n\n"
@@ -61,9 +65,9 @@ def write_solution_tables(nbks):
 
 	for size in [100,200,400,600,800,1000,1500,2000,2500,3000,4000,5000]:
 		tabstr = ("<details><summary>%d locations</summary>\n<p>\n\n"
-				  "Instance | Vehicles | Cost | Reference | Date"
+				  "Instance | Vehicles | Cost | Reference | Date\n"
 				  ":------: | -------: | ---: | :-------: | ---:\n" % (size))
-		for sol in nbks:
+		for k,sol in nbks.items():
 			if sol[1] == size:
 				tabstr = "%s%s | %d | %d | %s | %s\n" % (tabstr, sol[0], sol[2], sol[3], sol[4], sol[5])
 
@@ -94,15 +98,15 @@ if __name__ == '__main__':
 	## receive and prepare the arguments
 	parser = __prepareargs__()
 	args = __getargs__(parser)
-
+	print "Reading parameters..."
     ## read parameters
 	dir_new_sol = args['s'][0] ## directory with new solutions
 	dir_instances = args['i'][0] ## directory with the instances of the problem
 	reference = args['r'][0] ## reference
 	date = args['d'][0] ## date
-	bks_filename = args['b'][0] ## filename containing current BKV results
+	bks_filename = args['b'] ## filename containing current BKV results
 	dir_cur_sol = args['c'][0] ## directory containing current BKS
-
+	print "Validating solutions in %s" % (dir_new_sol)
 	valsol,logstr,cinv = checker.check_solutions(dir_instances, dir_new_sol)
 	
 	if cinv > 0:
@@ -110,7 +114,7 @@ if __name__ == '__main__':
 		logstr = "%sWARNING: There are %d invalid solutions\n" % (logstr, cinv)
 	else:
 		logstr = "%sAll %d instances are good!\n" % (logstr,len(valsol))
-
+	print "Reading BKS file %s" % (bks_filename)
 	bks = read_bks_file(bks_filename)
 	nbks = copy.deepcopy(bks)
 	
@@ -121,7 +125,7 @@ if __name__ == '__main__':
 			print "Instance %s not in BKS data. Something really wrong has happened.\nAborting opertaion..." % (i)
 			sys.exit(-1)
 
-		if ((valsol[i][0] < bks[i][1]) or (valsol[i][0] == bks[i][2] and valsol[i][1] < bks[i][3])):
+		if ((valsol[i][0] < bks[i][2]) or (valsol[i][0] == bks[i][2] and valsol[i][1] < bks[i][3])):
 			nbks[i][2] = valsol[i][0]
 			nbks[i][3] = valsol[i][1]
 			nbks[i][4] = reference
