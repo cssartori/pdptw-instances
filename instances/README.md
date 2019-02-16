@@ -1,6 +1,6 @@
 # Instance files
 
-The 300 instance files are too large to be stored in this git repository, unfortunately. Hence, I keep in this README file reference links that one may use to download the files for each instance size. 
+The 300 instance files are too large to be stored in this git repository, unfortunately. Hence, I keep in this README the reference links to download the files for each instance size. 
 
 ## Download
 
