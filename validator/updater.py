@@ -101,7 +101,7 @@ def write_solution_tables(nbks):
 		
 
 	text = ("%s\n## References\n\n"
-			"TODO: add reference\n\n"
+			"SB &mdash; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
 			"## File structure\n\n"
 			"All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW instances maintained by them. "
 			"Below you can find a simple description, although one can inspect the solution files to see the strucutre as well.\n\n"
