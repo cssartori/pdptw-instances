@@ -32,11 +32,12 @@ def get_list_of_files(direc, ext=""):
 
 
 def check_solutions(dir_instances, dir_new_sol):
-
 	logstr = "" ## log
 	vs = dict() ## set with valid solutions
 	cinvalid = 0 ## counter of invalid solutions
-	for filename in get_list_of_files(dir_new_sol, ".txt"):
+	lf = get_list_of_files(dir_new_sol, ".txt")
+	
+	for filename in lf:
 		inst = filename.split("/")[-1].split(".")[0]
 		iname = inst
 		sz = inst.split("-")[1][1:]
@@ -54,7 +55,7 @@ def check_solutions(dir_instances, dir_new_sol):
 			if c[1] != rveh or c[2] != rcst:
 				logstr = "%s...Disagreement...%s\n" % (logstr, filename)
 			vs[iname] = [c[1], c[2]]
-
+			
 	return vs,logstr,cinvalid
 
 

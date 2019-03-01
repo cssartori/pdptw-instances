@@ -56,20 +56,45 @@ def write_bks_file(bks_filename, nbks):
 		f.write(text)
 
 def write_solution_tables(nbks):
+	def comp_inst(in1, in2):
+		s1 = int(in1.split("-")[1][1:])
+		s2 = int(in2.split("-")[1][1:])
+		c1 = in1[0:2]
+		c2 = in2[0:2]
+		i1 = int(in1[-1:])
+		i2 = int(in2[-1:])
+		if s1 < s2:
+			return -1
+		elif s1 > s2:
+			return 1
+		elif c1 < c2:
+			return -1
+		elif c1 > c2:
+			return 1
+		elif i1 < i2:
+			return -1
+		elif i1 > i2:
+			return 1
+		else:
+			return 0
+	
 	text = ("# Best-known solutions\n\n"
 	 "Here you can find the best-known solutions (BKS) for the PDPTW instances. Below, the solutions are grouped according to the instance size "
 	 "(number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has "
 	 "exactly 25 instances.\n\n"
 	 "For each solution, there is a detailed solution file available. In the following tables, it is presented the name of the instance, the number "
 	 "of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.\n\n")
-
+	keylist = nbks.keys()
+	keylist.sort(cmp=comp_inst)
 	for size in [100,200,400,600,800,1000,1500,2000,2500,3000,4000,5000]:
 		tabstr = ("<details><summary>%d locations</summary>\n<p>\n\n"
 				  "Instance | Vehicles | Cost | Reference | Date\n"
 				  ":------: | -------: | ---: | :-------: | ---:\n" % (size))
-		for k,sol in nbks.items():
+		for k in keylist:
+			sol = nbks[k]
 			if sol[1] == size:
-				tabstr = "%s%s | %d | %d | %s | %s\n" % (tabstr, sol[0], sol[2], sol[3], sol[4], sol[5])
+				link = "https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/%s.%d_%d.txt" % (sol[0], sol[2], sol[3])
+				tabstr = "%s[%s](%s) | %d | %d | %s | %s\n" % (tabstr, sol[0], link, sol[2], sol[3], sol[4], sol[5])
 
 		tabstr = "%s\n</p>\n</details>\n\n" % (tabstr)
 		text = "%s%s" % (text, tabstr)
@@ -90,8 +115,8 @@ def update_solution_files(dir_cur_sol, dir_new_sol, obks, nbks):
 		if( obks[inst][2] == nbks[inst][2] and obks[inst][3] == nbks[inst][3]):
 			continue
 
-		os.remove(dir_cur_sol+("%s.%d_%d.txt" % (inst, obks[2], obks[3])))
-		shutil.copy(dir_new_sol+("%s.%d_%d.txt" % (inst, nbks[2], nbks[3])), dir_cur_sol)
+		os.remove(dir_cur_sol+("%s.%d_%d.txt" % (inst, obks[inst][2], obks[inst][3])))
+		shutil.copy(dir_new_sol+("%s.%d_%d.txt" % (inst, nbks[inst][2], nbks[inst][3])), dir_cur_sol)
 	
 		
 if __name__ == '__main__':
@@ -105,7 +130,7 @@ if __name__ == '__main__':
 	reference = args['r'][0] ## reference
 	date = args['d'][0] ## date
 	bks_filename = args['b'] ## filename containing current BKV results
-	dir_cur_sol = args['c'][0] ## directory containing current BKS
+	dir_cur_sol = args['c'] ## directory containing current BKS
 	print "Validating solutions in %s" % (dir_new_sol)
 	valsol,logstr,cinv = checker.check_solutions(dir_instances, dir_new_sol)
 	
@@ -146,9 +171,12 @@ if __name__ == '__main__':
 	logstr = "%sThere were %d improvements, %d ties, and %d worse solutions\n" % (logstr, improves, ties, len(valsol)-(improves+ties))
 
 	if improves > 0:
+		print "Moving new solution files from %s to %s" % (dir_new_sol, dir_cur_sol)
+		update_solution_files(dir_cur_sol, dir_new_sol, bks, nbks)
+		print "Writing updated BKS file %s" % (bks_filename)
 		write_bks_file(bks_filename, nbks)
+		print "Writing solution tables"
 		write_solution_tables(nbks)
-		#update_solution_files(dir_cur_sol, dir_new_sol, bks, nbks)
 	
 	with open("log.txt", "w") as f:
 		f.write(logstr)
