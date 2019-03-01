@@ -415,7 +415,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 ## References
 
-TODO: add reference
+SB &mdash; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
 
 ## File structure
 
