@@ -1,0 +1,17 @@
+Instance name:	bar-n100-4
+Authors:		Carlo Sartori and Luciana Buriol
+Date:			2019-2-11
+Reference:		A matheuristic approach to the PDPTW (to be submitted)
+Solution
+Route 1 : 1 51 25 23 75 73
+Route 2 : 6 56 10 8 13 60 58 63 35 85
+Route 3 : 47 97 9 59 7 43 57 93
+Route 4 : 19 17 67 69 32 39 82 89
+Route 5 : 36 20 86 70 49 44 94 15 99 65
+Route 6 : 38 88 3 31 81 53 34 24 84 74
+Route 7 : 26 76 2 52 42 92 41 91
+Route 8 : 21 29 71 79 45 12 62 95
+Route 9 : 46 96 28 78 4 30 54 80
+Route 10 : 16 66 11 61 22 14 64 72
+Route 11 : 5 18 55 68 33 40 83 90
+Route 12 : 27 50 77 48 37 100 98 87

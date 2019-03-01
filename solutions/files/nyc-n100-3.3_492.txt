@@ -1,0 +1,8 @@
+Instance name:	nyc-n100-3
+Authors:		Carlo Sartori and Luciana Buriol
+Date:			2019-2-11
+Reference:		A matheuristic approach to the PDPTW (to be submitted)
+Solution
+Route 1 : 27 44 47 33 29 77 25 45 83 32 94 82 5 97 79 14 55 35 75 95 64 9 85 4 12 62 59 54 17 67 26 76 46 96
+Route 2 : 13 1 7 3 11 20 70 57 40 51 63 53 21 61 39 90 18 71 42 68 2 92 48 8 52 89 41 58 98 31 81 91
+Route 3 : 28 37 34 43 87 30 84 93 80 19 78 16 36 10 69 86 66 60 50 49 15 6 99 38 23 56 100 24 88 65 22 74 73 72
