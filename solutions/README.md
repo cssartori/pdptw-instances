@@ -419,7 +419,4 @@ SB &mdash; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPT
 
 ## File structure
 
-All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW instances maintained by them. Below you can find a simple description, although one can inspect the solution files to see the strucutre as well.
-
-TODO: explain
-
+All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW and VRPTW instances they maintain. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. Although, one can inspect the solution files to see the strucutre as well.
