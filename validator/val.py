@@ -24,10 +24,11 @@ class Solution:
 
 #Prepare the arguments the program shall receive
 def __prepareargs__():
-	parser = argparse.ArgumentParser(description='Parse result files and logs grouping information in a new file')
+	parser = argparse.ArgumentParser(description='Validator of PDPTW solutions.')
 	parser.add_argument('-i', nargs=1, type=str, help='Instance file', required=True)
 	parser.add_argument('-s', nargs=1, type=str, help='Solution file', required=True)
 	parser.add_argument('-f', nargs=1, type=str, help='Format of the instance file', required=False, default="sb")
+	## TODO: add a li-lim instance reader to validate them as well
     
 	return parser
 
@@ -130,7 +131,9 @@ def validate_solution(inst, sol):
 def validate(iname, sname):
 	inst = read_instance(iname)
 	sol = read_solution(sname, inst)
-	
+
+	## returns a list containing 3 elements: [ 0 or 1 , num. routes , total route cost]
+	## if 1st element is 0: solution is invalid. Else if it is 1, solution is valid.
 	return [1 if validate_solution(inst, sol) else 0, len(sol.routes), sol.cost]
 
 

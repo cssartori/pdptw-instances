@@ -5,7 +5,7 @@ import checker;
 
 #Prepare the arguments the program shall receive
 def __prepareargs__():
-	parser = argparse.ArgumentParser(description='Parse result files and logs grouping information in a new file')
+	parser = argparse.ArgumentParser(description='Validade new solution files and update information accordingly for PDPTW instances.')
 	parser.add_argument('-s', nargs=1, type=str, help='Directory with new solutions', required=True)
 	parser.add_argument('-i', nargs=1, type=str, help='Directory with instance files', required=True)
 	parser.add_argument('-r', nargs=1, type=str, help='Reference that generated the solutions', required=True)
@@ -103,9 +103,9 @@ def write_solution_tables(nbks):
 	text = ("%s\n## References\n\n"
 			"SB &mdash; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
 			"## File structure\n\n"
-			"All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW instances maintained by them. "
-			"Below you can find a simple description, although one can inspect the solution files to see the strucutre as well.\n\n"
-			"TODO: explain\n\n" % (text))
+			"All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW and VRPTW instances they maintain. " 
+			"The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. "
+			"Although, one can inspect the solution files to see the strucutre as well.\n\n" % (text))
 
 	with open("../solutions/README.md", "w") as f:
 		f.write(text)

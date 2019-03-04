@@ -4,7 +4,7 @@ import val;
 
 #Prepare the arguments the program shall receive
 def __prepareargs__():
-	parser = argparse.ArgumentParser(description='Parse result files and logs grouping information in a new file')
+	parser = argparse.ArgumentParser(description='Validates all PDPTW solutions in a folder.')
 	parser.add_argument('-s', nargs=1, type=str, help='Directory with new solutions', required=True)
 	parser.add_argument('-i', nargs=1, type=str, help='Directory with instance files', required=True)
     
