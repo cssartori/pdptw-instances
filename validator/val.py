@@ -154,5 +154,7 @@ if __name__ == '__main__':
 
 	inst = read_instance(inst_name)
 	sol = read_solution(sol_name, inst)
-	
-	print "%d;%d;%d" % (1 if validate_solution(inst, sol) else 0, len(sol.routes), sol.cost)
+	valid = validate_solution(inst, sol)
+	print "%s" % ("Valid" if valid else "Invalid")
+	if valid:
+		print "Veh.: %d   Cost: %d" % (len(sol.routes), sol.cost)

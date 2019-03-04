@@ -49,9 +49,9 @@ def check_solutions(dir_instances, dir_new_sol):
 		c = val.validate(inst, filename)
 		if c[0] == 0:
 			cinvalid += 1
-			logstr = "%sINF...............%s\n" % (logstr, filename)
+			logstr = "%sInvalid...............%s\n" % (logstr, filename)
 		else:
-			logstr = "%sOK................%s\n" % (logstr, filename)
+			logstr = "%sValid.................%s\n" % (logstr, filename)
 			if c[1] != rveh or c[2] != rcst:
 				logstr = "%s...Disagreement...%s\n" % (logstr, filename)
 			vs[iname] = [c[1], c[2]]
@@ -70,11 +70,10 @@ if __name__ == '__main__':
 	
 	print "Validating..."
 	valsol,logstr,cinv = check_solutions(dir_instances, dir_new_sol)
+	print logstr
 	if cinv > 0:
 		print "There are %d invalid solutions out of %d" % (cinv, cinv+len(valsol))
 	else:
 		print "All %d instances are good!" % (len(valsol))
-	# with open("log.txt", "w") as f:
-	# 	f.write(logstr)
 
 	
