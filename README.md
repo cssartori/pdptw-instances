@@ -1,8 +1,8 @@
 # Instances for the Pickup and Delivery Problem with Time Windows
 
-In this repository you can find information about the PDPTW instances proposed in my Master's thesis entitled *Pickup and Delivery Problem with Time Windows: Algorithms, Instances, and Solutions* available online at (lacks citation).
+In this repository you can find information about the PDPTW instances proposed in my Master's thesis entitled *Pickup and Delivery Problem with Time Windows: Algorithms, Instances, and Solutions* available online at (link to be added).
 
-The instances are based on the Open Source Vehicle Routing Instance Generator (link), which uses real addresses and travel times in their definition. Travel times are computed by the Open Source Routing Machine (link) using Open Street Maps data. Futher information can be found in the repository of the instance generator.
+The instances are based on the [Open Source Vehicle Routing Instance Generator](https://github.com/cssartori/ovig), which uses real addresses and travel times in their definition. Travel times are computed by the [Open Source Routing Machine](https://github.com/Project-OSRM/osrm-backend) using Open Street Maps data. Further information can be found in the repository of the instance generator.
 
 This repository was inspired by others in the combinatorial optimization and operations research communities, such as the [TSPLib](https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/), the [CVRPLib](http://vrp.atd-lab.inf.puc-rio.br/index.php/en/), and the [SINTEF TOP](https://www.sintef.no/projectweb/top/). The latter maintains the standard instances of the PDPTW proposed by Li and Lim (2003) and their best-known solutions.
 
@@ -20,6 +20,6 @@ The folder [validator/](https://github.com/cssartori/pdptw-instances/tree/master
 
 ## How to contribute new best-known solutions
 
-Anyone can contribute with new best-known solutions for the proposed instances. All that is needed is to submit the solution files containing the new solutions (preferably validated in advance). For the structure of the solution file, please make every effort to have it in the same way as the one detailed in the *solutions/* folder. A published reference to the work that generated the solutions is very much appreciated.
+Anyone can contribute with new best-known solutions for the proposed instances. All that is needed is to submit the file containing the new solution (preferably validated in advance). For the structure of the solution file, please make every effort to have it in the same way as the one detailed in the [solutions/](https://github.com/cssartori/pdptw-instances/tree/master/solutions) folder. A published reference to the work that generated the solutions is very much appreciated.
 
 New solutions can be submitted to: cssartori `at` inf  `dot` ufrgs `dot` br
