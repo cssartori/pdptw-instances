@@ -1,6 +1,6 @@
 # Instances for the Pickup and Delivery Problem with Time Windows
 
-In this repository you can find information about the PDPTW instances proposed in my Master's thesis entitled *Pickup and Delivery Problem with Time Windows: Algorithms, Instances, and Solutions* available online at (link to be added).
+In this repository you can find information about the PDPTW instances proposed in my Master's thesis entitled *Pickup and Delivery Problem with Time Windows: Algorithms, Instances, and Solutions* available online [here](https://www.lume.ufrgs.br/handle/10183/194380).
 
 The instances are based on the [Open Source Vehicle Routing Instance Generator](https://github.com/cssartori/ovig), which uses real addresses and travel times in their definition. Travel times are computed by the [Open Source Routing Machine](https://github.com/Project-OSRM/osrm-backend) using Open Street Maps data. Further information can be found in the repository of the instance generator.
 
