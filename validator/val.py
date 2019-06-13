@@ -61,7 +61,10 @@ def read_instance(filename):
 			node.etw = int(cl[4])
 			node.ltw = int(cl[5])
 			node.stw = int(cl[6])
-			node.pair = node.idx+(inst.size/2)
+			if node.cap > 0:
+				node.pair = node.idx+(inst.size/2)
+			elif node.cap < 0:
+				node.pair = node.idx-(inst.size/2)
 			inst.nodes.append(node)
 
 		dummy = f.readline()
