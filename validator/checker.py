@@ -41,7 +41,7 @@ def check_solutions(dir_instances, dir_new_sol):
 		inst = filename.split("/")[-1].split(".")[0]
 		iname = inst
 		sz = inst.split("-")[1][1:]
-		inst = dir_instances + ("n%s/" % (sz)) + inst + ".txt"
+		inst = dir_instances + inst + ".txt"
 
 		rveh = int(filename.split("/")[-1].split(".")[1].split("_")[0]) ## reported vehicles
 		rcst = int(filename.split("/")[-1].split(".")[1].split("_")[1]) ## reported cost

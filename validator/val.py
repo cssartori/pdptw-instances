@@ -3,17 +3,17 @@ from operator import itemgetter
 
 class Node:
 	def __init__(self):
-		self.idx = 0
-		self.setw = 0
+		self.idx = 0 ## node index
+		self.etw = 0 ## time window [etw, ltw]
 		self.ltw = 0
-		self.stw = 0
-		self.dem = 0
-		self.pair = 0
+		self.stw = 0 ## service duration
+		self.dem = 0 ## node demand
+		self.pair = 0 ## node pair
 
 class Instance:
 	def __init__(self):
-		self.size = 0
-		self.cap = 0
+		self.size = 0 ## number of nodes
+		self.cap = 0 ## vehicle capacity
 		self.nodes = list()
 		self.times = list()
 
@@ -106,7 +106,6 @@ def validate_solution(inst, sol):
 		n = 0
 		
 		for a in r[1:]:
-			#print "%d -- %d.0 --> %d" % (n, inst.times[n][a], a)
 			time += inst.times[n][a]
 			time = max(time, inst.nodes[a].etw)
 			if time > inst.nodes[a].ltw: ## above maximum limit of TW
