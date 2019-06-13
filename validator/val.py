@@ -57,13 +57,13 @@ def read_instance(filename):
 			cl = line.split(" ")
 			node = Node()
 			node.idx = int(cl[0])
-			node.cap = int(cl[3])
+			node.dem = int(cl[3])
 			node.etw = int(cl[4])
 			node.ltw = int(cl[5])
 			node.stw = int(cl[6])
-			if node.cap > 0:
+			if node.dem > 0:
 				node.pair = node.idx+(inst.size/2)
-			elif node.cap < 0:
+			elif node.dem < 0:
 				node.pair = node.idx-(inst.size/2)
 			inst.nodes.append(node)
 
