@@ -1,42 +1,68 @@
-## Instance file structure and how to read
-##
-## The first 10 lines of each file contain general information about the
-## instance. All times are measured in minutes, whereas capacity and demands
-## are measured in units of goods.
-##
-## The most important information is in the following fields:
-##
-## SIZE: <number of locations in the instance including the depot>
-## ROUTE-TIME: <the maximum time vehicles must return to the depot (horizon)>
-## CAPACITY: <maximum capacity of each vehicle>
-##
-## Next, a NODES field is followed by SIZE lines containing the complete
-## information of each location in the instance file. For each line,
-## there are 9 fields separated by a single space character.
-##
-## <id> <lat> <long> <dem> <etw> <ltw> <sd> <p> <d>
-##
-## <id> is the node identifier ( node 0 is the unique depot ).
-## <lat> <lon> are the latitude and longitude coordinates of the location.
-## <dem> is the demand ( dem > 0 for pickup, dem < 0 for delivery ).
-## <etw> <ltw> are the time window [etw,ltw] of the location.
-## <sd> is the service duration at that location.
-## <p> is the pickup pair if <id> is a delivery, and 0 otherwise.
-## <d> is the delivery pair if <id> is a pickup, and 0 otherwise.
-##
-## The <p> and <d> are for completeness reasons only, because the delivery of
-## each pickup location <id> is given by (<id>+((SIZE-1)/2)). Analogous for
-## delivery location <id> the pickup is given by (<id>-((SIZE-1)/2)).
-##
-## NOTE: there are only two float values in the instance: <lat> and <lon>.
-##
-## After the NODES, there is an EDGES field, followed by SIZE lines
-## each line with SIZE integer values separated by a single space character.
-## These integers are the travel times between each location in the instance,
-## measured in minutes and computed throughout the OSRM tool.
-##
-## All instances end with an EOF field.
-##
-##
-##
+
+File structure of instance files (how to read).
+
+The first 10 lines of each file contain general information about the
+instance. These are:
+
+NAME:  <unique instance identification>
+LOCATION:  <city where it was generated>
+COMMENT:  <a general reference>
+TYPE:  <the type is always PDPTW>
+SIZE:  <number of nodes including the depot>
+DISTRIBUTION:  <the type of distribution*>
+DEPOT:  <type of depot location: either 'central' or 'random'>
+ROUTE-TIME:  <time horizon>
+TIME-WINDOW:  <time window width>
+CAPACITY:  <maximum vehicle capacity>
+
+Then, a line containing the word NODES is followed by SIZE lines
+containing the complete information of each location (node) in the
+instance file. For each line, there are 9 fields separated by a
+single white space character as below:
+
+<id> <lat> <long> <dem> <etw> <ltw> <dur> <p> <d>
+
+<id>:   is the unique node identifier ( node 0 is the unique depot )
+<lat>:  latitude of this location
+<lon>:  longitude of this location
+<dem>:  the demand of this node ( dem > 0 for pickup, dem < 0 for delivery )
+<etw>:  earliest possible time to start service (Time Window)
+<ltw>:  latest possible time to start service (Time Window)
+<dur>:  the service duration at this location
+<p>:    the pickup pair if <id> is a delivery, and 0 otherwise
+<d>:    the delivery pair if <id> is a pickup, and 0 otherwise
+
+
+The <p> and <d> are for completeness reasons only. In all instances,
+for a pickup location <id> its delivery is given by (<id>+((SIZE-1)/2)).
+For a delivery location <id>, its pickup is given by (<id>-((SIZE-1)/2)).
+
+
+After all NODES, there is a line containing the word EDGES followed by SIZE
+lines, each one with SIZE integer values separated by a single white space
+character. These integers represent the travel times between each pair of
+locations in the instance, measured in minutes and computed throughout the
+OSRM tool.
+
+All instances end with a line containing the word EO.
+
+
+NOTE-1: For cluster and cluster-random distributions (x / y) indicate
+that x seeds were chosen to create clusters and the density used
+in the selection of locations was y.
+
+NOTE-2: There are only two float values in an instance: <lat> and <lon>.
+All other values are integers.
+(except for the cluster density when applicable)
+
+NOTE-3: The only information that is stricly necessary to solve an instance
+is included in the following fields: CAPACITY, NODES, EDGES. All the remaining
+values are either auxiliary (e.g., SIZE) or simply additional information about
+the instance.
+
+
+
 ## Carlo Sartori and Luciana Buriol (2019).
+
+
+
