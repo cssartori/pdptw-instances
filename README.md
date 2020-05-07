@@ -16,7 +16,7 @@ The detailed best-known solution for each instance is kept under the folder [sol
 
 ## Validator
 
-The folder [validator/](https://github.com/cssartori/pdptw-instances/tree/master/validator) contains Python (2.7) scripts to validate solutions for the instances. In this way, it is possible to verify if new best-known solutions respect all the constraints imposed by the PDPTW. The folder also contains a brief explanation about the PDPTW constraints and provides references for those interested in further information.
+The folder [validator/](https://github.com/cssartori/pdptw-instances/tree/master/validator) contains Python (3.0) scripts to validate solutions for the instances. In this way, it is possible to verify if new best-known solutions respect all the constraints imposed by the PDPTW. The folder also contains a brief explanation about the PDPTW constraints and provides references for those interested in further information.
 
 ## How to contribute new best-known solutions
 
