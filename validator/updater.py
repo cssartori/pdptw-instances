@@ -5,11 +5,11 @@ import checker;
 
 #Prepare the arguments the program shall receive
 def __prepareargs__():
-	parser = argparse.ArgumentParser(description='Validade new solution files and update information accordingly for PDPTW instances.')
+	parser = argparse.ArgumentParser(description='Validade new solution files and update table information accordingly for PDPTW instances.')
 	parser.add_argument('-s', nargs=1, type=str, help='Directory with new solutions', required=True)
 	parser.add_argument('-i', nargs=1, type=str, help='Directory with instance files', required=True)
 	parser.add_argument('-r', nargs=1, type=str, help='Reference that generated the solutions', required=True)
-	parser.add_argument('-d', nargs=1, type=str, help='Solultions\' submission date', required=True)
+	parser.add_argument('-d', nargs=1, type=str, help='Submission date of solution files', required=True)
 	parser.add_argument('-b', nargs=1, type=str, help='File with best-known values', required=False, default="bks.dat")
 	parser.add_argument('-c', nargs=1, type=str, help='Directory with current best-known solution files', required=False, default="../solutions/files/")
     
@@ -123,7 +123,9 @@ if __name__ == '__main__':
 	## receive and prepare the arguments
 	parser = __prepareargs__()
 	args = __getargs__(parser)
-	print "Reading parameters..."
+	
+	print("Reading parameters...")
+	
     ## read parameters
 	dir_new_sol = args['s'][0] ## directory with new solutions
 	dir_instances = args['i'][0] ## directory with the instances of the problem
@@ -131,15 +133,17 @@ if __name__ == '__main__':
 	date = args['d'][0] ## date
 	bks_filename = args['b'] ## filename containing current BKV results
 	dir_cur_sol = args['c'] ## directory containing current BKS
-	print "Validating solutions in %s" % (dir_new_sol)
+
+	print("Validating solutions in %s" % (dir_new_sol))
 	valsol,logstr,cinv = checker.check_solutions(dir_instances, dir_new_sol)
 	
 	if cinv > 0:
-		print "WARNING: There are %d invalid solutions" % (cinv)
+		print("WARNING: There are %d invalid solutions" % (cinv))
 		logstr = "%sWARNING: There are %d invalid solutions\n" % (logstr, cinv)
 	else:
 		logstr = "%sAll %d instances are good!\n" % (logstr,len(valsol))
-	print "Reading BKS file %s" % (bks_filename)
+		
+	print("Reading BKS file %s" % (bks_filename))
 	bks = read_bks_file(bks_filename)
 	nbks = copy.deepcopy(bks)
 	
@@ -147,7 +151,7 @@ if __name__ == '__main__':
 	ties = 0
 	for i in valsol.keys():
 		if not i in bks:
-			print "Instance %s not in BKS data. Something really wrong has happened.\nAborting opertaion..." % (i)
+			print("Instance %s not in BKS data. Something really wrong has happened.\nAborting opertaion..." % (i))
 			sys.exit(-1)
 
 		if ((valsol[i][0] < bks[i][2]) or (valsol[i][0] == bks[i][2] and valsol[i][1] < bks[i][3])):
@@ -164,18 +168,18 @@ if __name__ == '__main__':
 			logstr = "%sWORSE.............%s\n" % (logstr, i)
 
 	if improves > 0:
-		print "A total of %d solutions were improved" % (improves)
+		print("A total of %d solutions were improved" % (improves))
 	else:
-		print "WARNING: No solution improved. Did something go wrong?"
+		print("WARNING: No solution improved. Did something go wrong?")
 		
 	logstr = "%sThere were %d improvements, %d ties, and %d worse solutions\n" % (logstr, improves, ties, len(valsol)-(improves+ties))
 
 	if improves > 0:
-		print "Moving new solution files from %s to %s" % (dir_new_sol, dir_cur_sol)
+		print("Moving new solution files from %s to %s" % (dir_new_sol, dir_cur_sol))
 		update_solution_files(dir_cur_sol, dir_new_sol, bks, nbks)
-		print "Writing updated BKS file %s" % (bks_filename)
+		print("Writing updated BKS file %s" % (bks_filename))
 		write_bks_file(bks_filename, nbks)
-		print "Writing solution tables"
+		print("Writing solution tables")
 		write_solution_tables(nbks)
 	
 	with open("log.txt", "w") as f:

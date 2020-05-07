@@ -1,13 +1,15 @@
 import sys, os, argparse;
 from operator import itemgetter;
-import val;
+import validator;
+
+verbosity = 0
 
 #Prepare the arguments the program shall receive
 def __prepareargs__():
 	parser = argparse.ArgumentParser(description='Validates all PDPTW solutions in a folder.')
 	parser.add_argument('-s', nargs=1, type=str, help='Directory with new solutions', required=True)
 	parser.add_argument('-i', nargs=1, type=str, help='Directory with instance files', required=True)
-    
+	parser.add_argument('-v', nargs=1, type=str, help='Verbosity leve ((less) 0,1,2,3 (more)).', required=False)
 	return parser
 
 #Parse the input arguments and returns a dictionary with them
@@ -46,15 +48,23 @@ def check_solutions(dir_instances, dir_new_sol):
 		rveh = int(filename.split("/")[-1].split(".")[1].split("_")[0]) ## reported vehicles
 		rcst = int(filename.split("/")[-1].split(".")[1].split("_")[1]) ## reported cost
 		
-		c = val.validate(inst, filename)
-		if c[0] == 0:
+		c = validator.validate(inst, filename)
+		if not c[0]:
 			cinvalid += 1
 			logstr = "%sInvalid...............%s\n" % (logstr, filename)
+			if verbosity >= 2:
+				print("Invalid...............%s" % (filename))
 		else:
 			logstr = "%sValid.................%s\n" % (logstr, filename)
-			if c[1] != rveh or c[2] != rcst:
+			if verbosity >= 2:
+				print("Valid.................%s" % (filename))
+				
+			if c[2] != rveh or c[3] != rcst:
 				logstr = "%s...Disagreement...%s\n" % (logstr, filename)
-			vs[iname] = [c[1], c[2]]
+				if verbosity >= 3:
+					print("\t...Disagreement...%s" % (filename))
+					
+			vs[iname] = [c[2], c[3]]
 			
 	return vs,logstr,cinvalid
 
@@ -67,13 +77,19 @@ if __name__ == '__main__':
     ## read parameters
 	dir_new_sol = args['s'][0] ## directory with new solutions
 	dir_instances = args['i'][0] ## directory with the instances of the problem
-	
-	print "Validating..."
+	if args['v'] != None:
+		verbosity = int(args['v'][0])
+	if verbosity >= 1:
+		print("Validating...")
+		
 	valsol,logstr,cinv = check_solutions(dir_instances, dir_new_sol)
-	print logstr
+
+	if verbosity >= 1:
+		print("Validation log:\n%s" % (logstr))
+	
 	if cinv > 0:
-		print "There are %d invalid solutions out of %d" % (cinv, cinv+len(valsol))
+		print("There are %d invalid solutions out of %d" % (cinv, cinv+len(valsol)))
 	else:
-		print "All %d instances are good!" % (len(valsol))
+		print("All %d solutions are good!" % (len(valsol)))
 
 	
