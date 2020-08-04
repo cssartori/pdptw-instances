@@ -415,8 +415,14 @@ Instance | Vehicles | Cost | Reference | Date
 
 ## References
 
-SB &mdash; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
+SB &mdash; Carlo S. Sartori and Luciana S. Buriol. *A study on the pickup and delivery problem with time windows: matheuristics and new instances*, Computers & Operations Research (2020).
+
+## Objective function
+
+For clarification, we describe the objective function of the problem and how solutions are compared for updating purposes. A solution *S* contains two values: *V(S)*, the number of vehicles (routes); and *C(S)*, the total cost (here, sum of travel times).
+
+Two solutions *S'* and *S''* are evaluated using the lexicographic order of the two values (first, vehicles; second, cost). First, the number of vehicles are compared and if *V(S') < V(S'')*, then *S'* is the best (or vice-versa). However, if *V(S') = V(S'')*, then the cost is compared and whichever solutions has the smallest cost is considered the best one.
 
 ## File structure
 
-All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW and VRPTW instances they maintain. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. Although, one can inspect the solution files to see the strucutre as well.
+All solution files are structured in a common way. They follow the default format from the [SINTEF website](https://www.sintef.no/projectweb/top/pdptw/li-lim-benchmark/) for their PDPTW and VRPTW instances. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file to serve as example. Additionally, one may inspect any of the solution files to see the strucutre.
