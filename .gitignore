@@ -1,0 +1,6 @@
+validator/log.txt
+validator/__pycache__
+
+submissions/*
+
+instances/all
