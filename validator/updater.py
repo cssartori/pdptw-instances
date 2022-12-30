@@ -2,6 +2,7 @@ import sys, os, argparse, shutil;
 import copy;
 from operator import itemgetter;
 import checker;
+import functools;
 
 #Prepare the arguments the program shall receive
 def __prepareargs__():
@@ -79,13 +80,13 @@ def write_solution_tables(nbks):
 			return 0
 	
 	text = ("# Best-known solutions\n\n"
-	 "Here you can find the best-known solutions (BKS) for the PDPTW instances. Below, the solutions are grouped according to the instance size "
+	 "Here you can find the best-known solutions (BKS) for the PDPTW instances. In the tables below, solutions are grouped according to the instance size "
 	 "(number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has "
 	 "exactly 25 instances.\n\n"
-	 "For each solution, there is a detailed solution file available. In the following tables, it is presented the name of the instance, the number "
+	 "For each solution there is a detailed solution file available (you may inspect the file by clikcing the link). The tables present the name of the instance, the number "
 	 "of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.\n\n")
-	keylist = nbks.keys()
-	keylist.sort(cmp=comp_inst)
+	keylist = list(nbks.keys())
+	keylist.sort(key=functools.cmp_to_key(comp_inst))
 	for size in [100,200,400,600,800,1000,1500,2000,2500,3000,4000,5000]:
 		tabstr = ("<details><summary>%d locations</summary>\n<p>\n\n"
 				  "Instance | Vehicles | Cost | Reference | Date\n"
@@ -101,11 +102,12 @@ def write_solution_tables(nbks):
 		
 
 	text = ("%s\n## References\n\n"
-			"SB &mdash; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
+			"SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
+			"Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; < shobb `at` narod `dot` ru >\n\n"
 			"## File structure\n\n"
-			"All instance files are structured in a common way. It follows the default format of SINTEF website for the PDPTW and VRPTW instances they maintain. " 
+			"All instance files are structured in a common way. They follow the default format from SINTEF's website for the PDPTW and VRPTW instances SINTEF maintains. "
 			"The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. "
-			"Although, one can inspect the solution files to see the strucutre as well.\n\n" % (text))
+			"However, one can also inspect the solution files to verify their strucutre. Note that the depot is not included in the routes. Additionally, no time or load information is explicitly included, only the sequence of visits for each route.\n\n" % (text))
 
 	with open("../solutions/README.md", "w") as f:
 		f.write(text)
@@ -131,8 +133,8 @@ if __name__ == '__main__':
 	dir_instances = args['i'][0] ## directory with the instances of the problem
 	reference = args['r'][0] ## reference
 	date = args['d'][0] ## date
-	bks_filename = args['b'] ## filename containing current BKV results
-	dir_cur_sol = args['c'] ## directory containing current BKS
+	bks_filename = args['b'][0] ## filename containing current BKV results
+	dir_cur_sol = args['c'][0] ## directory containing current BKS
 
 	print("Validating solutions in %s" % (dir_new_sol))
 	valsol,logstr,cinv = checker.check_solutions(dir_instances, dir_new_sol)

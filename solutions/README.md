@@ -1,8 +1,8 @@
 # Best-known solutions
 
-Here you can find the best-known solutions (BKS) for the PDPTW instances. Below, the solutions are grouped according to the instance size (number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has exactly 25 instances.
+Here you can find the best-known solutions (BKS) for the PDPTW instances. In the tables below, solutions are grouped according to the instance size (number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has exactly 25 instances.
 
-For each solution, there is a detailed solution file available. In the following tables, it is presented the name of the instance, the number of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.
+For each solution there is a detailed solution file available (you may inspect the file by clikcing the link). The tables present the name of the instance, the number of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.
 
 <details><summary>100 locations</summary>
 <p>
@@ -77,7 +77,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n400-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n400-1.32_3085.txt) | 32 | 3085 | SB | 11-feb-19
+[bar-n400-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n400-1.32_3084.txt) | 32 | 3084 | Shobb | 25-dec-22
 [bar-n400-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n400-2.30_2742.txt) | 30 | 2742 | SB | 11-feb-19
 [bar-n400-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n400-3.11_2562.txt) | 11 | 2562 | SB | 11-feb-19
 [bar-n400-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n400-4.18_1758.txt) | 18 | 1758 | SB | 11-feb-19
@@ -118,7 +118,7 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n600-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n600-5.13_2614.txt) | 13 | 2614 | SB | 11-feb-19
 [bar-n600-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n600-6.32_4958.txt) | 32 | 4958 | SB | 11-feb-19
 [bar-n600-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n600-7.32_4797.txt) | 32 | 4797 | SB | 11-feb-19
-[ber-n600-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n600-1.47_7783.txt) | 47 | 7783 | SB | 11-feb-19
+[ber-n600-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n600-1.47_7767.txt) | 47 | 7767 | Shobb | 25-dec-22
 [ber-n600-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n600-2.31_3837.txt) | 31 | 3837 | SB | 11-feb-19
 [ber-n600-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n600-3.29_3949.txt) | 29 | 3949 | SB | 11-feb-19
 [ber-n600-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n600-4.76_11120.txt) | 76 | 11120 | SB | 11-feb-19
@@ -129,7 +129,7 @@ Instance | Vehicles | Cost | Reference | Date
 [nyc-n600-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n600-3.19_2756.txt) | 19 | 2756 | SB | 11-feb-19
 [nyc-n600-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n600-4.9_2526.txt) | 9 | 2526 | SB | 11-feb-19
 [nyc-n600-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n600-5.11_2946.txt) | 11 | 2946 | SB | 11-feb-19
-[poa-n600-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n600-1.55_6196.txt) | 55 | 6196 | SB | 11-feb-19
+[poa-n600-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n600-1.54_6424.txt) | 54 | 6424 | Shobb | 25-dec-22
 [poa-n600-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n600-2.26_5250.txt) | 26 | 5250 | SB | 11-feb-19
 [poa-n600-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n600-3.24_2215.txt) | 24 | 2215 | SB | 11-feb-19
 [poa-n600-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n600-4.27_3130.txt) | 27 | 3130 | SB | 11-feb-19
@@ -145,7 +145,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n800-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-1.79_5598.txt) | 79 | 5598 | SB | 11-feb-19
+[bar-n800-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-1.78_5696.txt) | 78 | 5696 | Shobb | 25-dec-22
 [bar-n800-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-2.30_5052.txt) | 30 | 5052 | SB | 11-feb-19
 [bar-n800-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-3.22_5882.txt) | 22 | 5882 | SB | 11-feb-19
 [bar-n800-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-4.24_2832.txt) | 24 | 2832 | SB | 11-feb-19
@@ -220,7 +220,7 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n1500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-5.76_9525.txt) | 76 | 9525 | SB | 11-feb-19
 [bar-n1500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-6.160_12955.txt) | 160 | 12955 | SB | 11-feb-19
 [bar-n1500-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-7.39_10056.txt) | 39 | 10056 | SB | 11-feb-19
-[ber-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-1.171_24861.txt) | 171 | 24861 | SB | 11-feb-19
+[ber-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-1.168_23037.txt) | 168 | 23037 | Shobb | 25-dec-22
 [ber-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-2.69_8524.txt) | 69 | 8524 | SB | 11-feb-19
 [ber-n1500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-3.70_9183.txt) | 70 | 9183 | SB | 11-feb-19
 [ber-n1500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-4.36_8722.txt) | 36 | 8722 | SB | 11-feb-19
@@ -247,7 +247,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-1.96_11773.txt) | 96 | 11773 | SB | 11-feb-19
+[bar-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-1.95_12015.txt) | 95 | 12015 | Shobb | 25-dec-22
 [bar-n2000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-2.96_11716.txt) | 96 | 11716 | SB | 11-feb-19
 [bar-n2000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-3.146_13212.txt) | 146 | 13212 | SB | 11-feb-19
 [bar-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-4.71_11878.txt) | 71 | 11878 | SB | 11-feb-19
@@ -389,7 +389,7 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-4.590_51064.txt) | 590 | 51064 | SB | 11-feb-19
 [bar-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-5.410_47013.txt) | 410 | 47013 | SB | 11-feb-19
 [bar-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-6.269_38956.txt) | 269 | 38956 | SB | 11-feb-19
-[ber-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-1.752_100912.txt) | 752 | 100912 | SB | 11-feb-19
+[ber-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-1.715_84977.txt) | 715 | 84977 | Shobb | 25-dec-22
 [ber-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-2.412_71613.txt) | 412 | 71613 | SB | 11-feb-19
 [ber-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-3.185_63113.txt) | 185 | 63113 | SB | 11-feb-19
 [ber-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-4.322_77502.txt) | 322 | 77502 | SB | 11-feb-19
@@ -415,14 +415,11 @@ Instance | Vehicles | Cost | Reference | Date
 
 ## References
 
-SB &mdash; Carlo S. Sartori and Luciana S. Buriol. *A study on the pickup and delivery problem with time windows: matheuristics and new instances*, Computers & Operations Research (2020).
+SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
 
-## Objective function
-
-For clarification, we describe the objective function of the problem and how solutions are compared for updating purposes. A solution *S* contains two values: *V(S)*, the number of vehicles (routes); and *C(S)*, the total cost (here, sum of travel times).
-
-Two solutions *S'* and *S''* are evaluated using the lexicographic order of the two values (first, vehicles; second, cost). First, the number of vehicles are compared and if *V(S') < V(S'')*, then *S'* is the best (or vice-versa). However, if *V(S') = V(S'')*, then the cost is compared and whichever solutions has the smallest cost is considered the best one.
+Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; < shobb `at` narod `dot` ru >
 
 ## File structure
 
-All solution files are structured in a common way. They follow the default format from the [SINTEF website](https://www.sintef.no/projectweb/top/pdptw/li-lim-benchmark/) for their PDPTW and VRPTW instances. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file to serve as example. Additionally, one may inspect any of the solution files to see the strucutre.
+All instance files are structured in a common way. They follow the default format from SINTEF's website for the PDPTW and VRPTW instances SINTEF maintains. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. However, one can also inspect the solution files to verify their strucutre. Note that the depot is not included in the routes. Additionally, no time or load information is explicitly included, only the sequence of visits for each route.
+
