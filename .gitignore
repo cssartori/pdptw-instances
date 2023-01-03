@@ -1,5 +1,6 @@
 validator/log.txt
 validator/__pycache__
+validator/*.pyc
 
 submissions/*
 
