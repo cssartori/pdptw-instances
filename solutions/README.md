@@ -315,8 +315,8 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-1.154_23545.txt) | 154 | 23545 | SB | 11-feb-19
-[bar-n3000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-2.149_20573.txt) | 149 | 20573 | SB | 11-feb-19
+[bar-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-1.153_22537.txt) | 153 | 22537 | Shobb | 17-jan-23
+[bar-n3000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-2.148_19887.txt) | 148 | 19887 | Shobb | 17-jan-23
 [bar-n3000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-3.57_11684.txt) | 57 | 11684 | SB | 11-feb-19
 [bar-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-4.261_27374.txt) | 261 | 27374 | SB | 11-feb-19
 [bar-n3000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-5.158_20760.txt) | 158 | 20760 | SB | 11-feb-19
