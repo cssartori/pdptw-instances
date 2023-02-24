@@ -102,8 +102,9 @@ def write_solution_tables(nbks):
 		
 
 	text = ("%s\n## References\n\n"
+            "R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - RideCo (rideco.com)\n\n"
 			"SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
-			"Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; < shobb `at` narod `dot` ru >\n\n"
+			"Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )\n\n"
 			"## File structure\n\n"
 			"All instance files are structured in a common way. They follow the default format from SINTEF's website for the PDPTW and VRPTW instances SINTEF maintains. "
 			"The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. "

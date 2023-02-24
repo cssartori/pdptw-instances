@@ -20,7 +20,7 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n100-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n100-3.3_713.txt) | 3 | 713 | SB | 11-feb-19
 [ber-n100-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n100-4.3_494.txt) | 3 | 494 | SB | 11-feb-19
 [ber-n100-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n100-5.5_944.txt) | 5 | 944 | SB | 11-feb-19
-[ber-n100-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n100-6.14_2147.txt) | 14 | 2147 | SB | 11-feb-19
+[ber-n100-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n100-6.14_2119.txt) | 14 | 2119 | R | 23-feb-23
 [ber-n100-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n100-7.7_1935.txt) | 7 | 1935 | SB | 11-feb-19
 [nyc-n100-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n100-1.6_634.txt) | 6 | 634 | SB | 11-feb-19
 [nyc-n100-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n100-2.4_567.txt) | 4 | 567 | SB | 11-feb-19
@@ -414,6 +414,8 @@ Instance | Vehicles | Cost | Reference | Date
 
 
 ## References
+
+R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - RideCo (rideco.com)
 
 SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
 
