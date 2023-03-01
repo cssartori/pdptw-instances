@@ -167,7 +167,7 @@ Instance | Vehicles | Cost | Reference | Date
 [poa-n800-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-2.73_8058.txt) | 73 | 8058 | SB | 11-feb-19
 [poa-n800-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-3.49_9829.txt) | 49 | 9829 | SB | 11-feb-19
 [poa-n800-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-4.45_8124.txt) | 45 | 8124 | SB | 11-feb-19
-[poa-n800-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-5.72_4244.txt) | 72 | 4244 | SB | 11-feb-19
+[poa-n800-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-5.71_4224.txt) | 71 | 4224 | Shobb | 28-feb-23
 [poa-n800-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-6.37_4039.txt) | 37 | 4039 | SB | 11-feb-19
 [poa-n800-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-7.37_7982.txt) | 37 | 7982 | SB | 11-feb-19
 
@@ -393,12 +393,12 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-2.412_71613.txt) | 412 | 71613 | SB | 11-feb-19
 [ber-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-3.185_63113.txt) | 185 | 63113 | SB | 11-feb-19
 [ber-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-4.322_77502.txt) | 322 | 77502 | SB | 11-feb-19
-[ber-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-5.486_35412.txt) | 486 | 35412 | SB | 11-feb-19
+[ber-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-5.478_30869.txt) | 478 | 30869 | Shobb | 28-feb-23
 [ber-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-6.165_21704.txt) | 165 | 21704 | SB | 11-feb-19
 [ber-n5000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-7.420_74166.txt) | 420 | 74166 | SB | 11-feb-19
 [nyc-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-1.130_15902.txt) | 130 | 15902 | Shobb | 21-feb-23
 [nyc-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-2.149_19879.txt) | 149 | 19879 | SB | 11-feb-19
-[nyc-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-3.68_18667.txt) | 68 | 18667 | SB | 11-feb-19
+[nyc-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-3.68_17140.txt) | 68 | 17140 | Shobb | 28-feb-23
 [nyc-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-4.86_21066.txt) | 86 | 21066 | SB | 11-feb-19
 [nyc-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-5.72_19103.txt) | 72 | 19103 | SB | 11-feb-19
 [poa-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-1.290_62712.txt) | 290 | 62712 | SB | 11-feb-19
@@ -419,7 +419,7 @@ R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `d
 
 SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
 
-Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; < shobb `at` narod `dot` ru >
+Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )
 
 ## File structure
 
