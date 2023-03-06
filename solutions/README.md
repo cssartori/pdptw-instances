@@ -181,7 +181,7 @@ Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
 [bar-n1000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-1.52_8028.txt) | 52 | 8028 | Shobb | 03-jan-23
 [bar-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-2.38_3375.txt) | 38 | 3375 | Shobb | 03-jan-23
-[bar-n1000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-3.89_4818.txt) | 89 | 4818 | Shobb | 03-jan-23
+[bar-n1000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-3.88_4886.txt) | 88 | 4886 | Shobb | 06-mar-23
 [bar-n1000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-4.19_3465.txt) | 19 | 3465 | Shobb | 03-jan-23
 [bar-n1000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-5.26_6150.txt) | 26 | 6150 | SB | 11-feb-19
 [bar-n1000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-6.27_6825.txt) | 27 | 6825 | Shobb | 03-jan-23
@@ -189,8 +189,8 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-2.116_16222.txt) | 116 | 16222 | Shobb | 03-jan-23
 [ber-n1000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-3.52_13257.txt) | 52 | 13257 | Shobb | 03-jan-23
 [ber-n1000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-4.54_14538.txt) | 54 | 14538 | Shobb | 03-jan-23
-[ber-n1000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-5.111_15360.txt) | 111 | 15360 | Shobb | 03-jan-23
-[ber-n1000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-6.150_19028.txt) | 150 | 19028 | Shobb | 03-jan-23
+[ber-n1000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-5.110_15393.txt) | 110 | 15393 | Shobb | 06-mar-23
+[ber-n1000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-6.150_18603.txt) | 150 | 18603 | Shobb | 06-mar-23
 [ber-n1000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1000-7.72_17417.txt) | 72 | 17417 | Shobb | 03-jan-23
 [nyc-n1000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-1.27_4004.txt) | 27 | 4004 | Shobb | 03-jan-23
 [nyc-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-2.32_4830.txt) | 32 | 4830 | SB | 11-feb-19
@@ -202,8 +202,8 @@ Instance | Vehicles | Cost | Reference | Date
 [poa-n1000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-3.68_5555.txt) | 68 | 5555 | Shobb | 03-jan-23
 [poa-n1000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-4.22_4584.txt) | 22 | 4584 | Shobb | 03-jan-23
 [poa-n1000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-5.47_5887.txt) | 47 | 5887 | SB | 11-feb-19
-[poa-n1000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-6.95_11422.txt) | 95 | 11422 | Shobb | 03-jan-23
-[poa-n1000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-7.73_11535.txt) | 73 | 11535 | Shobb | 03-jan-23
+[poa-n1000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-6.93_11359.txt) | 93 | 11359 | Shobb | 06-mar-23
+[poa-n1000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-7.73_11493.txt) | 73 | 11493 | Shobb | 06-mar-23
 
 </p>
 </details>
