@@ -1,0 +1,15 @@
+Instance name : poa-n100-3
+Authors       : Isaiah Reimer (isaiah.reimer@rideco.com). RideCo (rideco.com)
+Date          : 2023-04-04
+Reference     : Rideco PDPTW Solver
+Solution
+Route 1 : 26 35 76 85 2 12 52 62 16 34 66 84
+Route 2 : 49 17 23 67 99 73 1 36 51 86
+Route 3 : 22 3 50 53 72 100 15 24 74 65
+Route 4 : 8 4 54 47 58 10 31 60 81 97
+Route 5 : 7 57 48 28 29 98 41 79 78 91
+Route 6 : 14 27 64 77 11 45 61 95
+Route 7 : 13 63 21 71 43 40 90 93 9 42 59 92
+Route 8 : 18 68 46 33 20 83 96 70 5 55
+Route 9 : 25 19 75 69 44 94 37 32 82 87
+Route 10 : 39 89 30 38 88 6 56 80

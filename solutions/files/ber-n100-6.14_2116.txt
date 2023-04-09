@@ -1,0 +1,19 @@
+Instance name : ber-n100-6
+Authors       : Isaiah Reimer (isaiah.reimer@rideco.com). RideCo (rideco.com)
+Date          : 2023-03-28
+Reference     : Rideco PDPTW Solver
+Solution
+Route 1 : 33 3 9 7 59 53 57 83
+Route 2 : 6 43 56 31 20 81 70 93
+Route 3 : 12 11 41 61 62 91
+Route 4 : 36 35 86 85 39 89
+Route 5 : 15 1 65 51 44 94
+Route 6 : 5 27 55 10 77 60 13 63
+Route 7 : 2 52 37 87
+Route 8 : 38 49 99 40 17 90 67 88
+Route 9 : 14 22 46 96 72 32 82 64
+Route 10 : 26 28 24 76 21 71 74 78
+Route 11 : 29 19 69 79 4 54 8 58
+Route 12 : 50 100 23 18 73 30 68 80
+Route 13 : 42 34 92 48 84 98
+Route 14 : 47 16 97 66 25 45 75 95
