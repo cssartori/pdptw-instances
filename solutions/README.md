@@ -180,7 +180,7 @@ Instance | Vehicles | Cost | Reference | Date
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
 [bar-n1000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-1.52_8028.txt) | 52 | 8028 | Shobb | 03-jan-23
-[bar-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-2.38_3375.txt) | 38 | 3375 | Shobb | 03-jan-23
+[bar-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-2.37_3603.txt) | 37 | 3603 | VRt | 19-apr-23
 [bar-n1000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-3.88_4886.txt) | 88 | 4886 | Shobb | 06-mar-23
 [bar-n1000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-4.19_3465.txt) | 19 | 3465 | Shobb | 03-jan-23
 [bar-n1000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1000-5.26_6150.txt) | 26 | 6150 | SB | 11-feb-19
@@ -214,7 +214,7 @@ Instance | Vehicles | Cost | Reference | Date
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
 [bar-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-1.74_9310.txt) | 74 | 9310 | SB | 11-feb-19
-[bar-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-2.61_11909.txt) | 61 | 11909 | SB | 11-feb-19
+[bar-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-2.60_12495.txt) | 60 | 12495 | VRt | 19-apr-23
 [bar-n1500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-3.93_6034.txt) | 93 | 6034 | SB | 11-feb-19
 [bar-n1500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-4.61_4943.txt) | 61 | 4943 | SB | 11-feb-19
 [bar-n1500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-5.76_9525.txt) | 76 | 9525 | SB | 11-feb-19
@@ -252,7 +252,7 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n2000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-3.146_13212.txt) | 146 | 13212 | SB | 11-feb-19
 [bar-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-4.71_11878.txt) | 71 | 11878 | SB | 11-feb-19
 [bar-n2000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-5.75_12940.txt) | 75 | 12940 | SB | 11-feb-19
-[bar-n2000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-6.176_9479.txt) | 176 | 9479 | SB | 11-feb-19
+[bar-n2000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-6.175_9652.txt) | 175 | 9652 | VRt | 19-apr-23
 [bar-n2000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-7.66_9439.txt) | 66 | 9439 | SB | 11-feb-19
 [ber-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-1.74_12918.txt) | 74 | 12918 | Shobb | 03-jan-23
 [ber-n2000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-2.280_32583.txt) | 280 | 32583 | SB | 11-feb-19
@@ -269,7 +269,7 @@ Instance | Vehicles | Cost | Reference | Date
 [poa-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-1.236_22850.txt) | 236 | 22850 | SB | 11-feb-19
 [poa-n2000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-2.161_16616.txt) | 161 | 16616 | SB | 11-feb-19
 [poa-n2000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-3.129_9451.txt) | 129 | 9451 | SB | 11-feb-19
-[poa-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-4.145_12735.txt) | 145 | 12735 | SB | 11-feb-19
+[poa-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-4.144_13205.txt) | 144 | 13205 | VRt | 19-apr-23
 [poa-n2000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-5.97_13304.txt) | 97 | 13304 | SB | 11-feb-19
 [poa-n2000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2000-6.65_19287.txt) | 65 | 19287 | SB | 11-feb-19
 
@@ -285,21 +285,21 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n2500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2500-2.120_14870.txt) | 120 | 14870 | SB | 11-feb-19
 [bar-n2500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2500-3.63_15574.txt) | 63 | 15574 | SB | 11-feb-19
 [bar-n2500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2500-4.65_15414.txt) | 65 | 15414 | SB | 11-feb-19
-[bar-n2500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2500-5.129_19139.txt) | 129 | 19139 | SB | 11-feb-19
+[bar-n2500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2500-5.128_20803.txt) | 128 | 20803 | VRt | 19-apr-23
 [bar-n2500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2500-6.99_18867.txt) | 99 | 18867 | SB | 11-feb-19
 [ber-n2500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-1.199_34196.txt) | 199 | 34196 | R | 06-apr-23
 [ber-n2500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-2.137_38751.txt) | 137 | 38751 | SB | 11-feb-19
 [ber-n2500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-3.248_18483.txt) | 248 | 18483 | SB | 11-feb-19
 [ber-n2500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-4.181_16019.txt) | 181 | 16019 | SB | 11-feb-19
 [ber-n2500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-5.262_21441.txt) | 262 | 21441 | SB | 11-feb-19
-[ber-n2500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-6.298_45634.txt) | 298 | 45634 | SB | 11-feb-19
+[ber-n2500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-6.292_41768.txt) | 292 | 41768 | VRt | 19-apr-23
 [ber-n2500-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-7.171_40572.txt) | 171 | 40572 | SB | 11-feb-19
 [nyc-n2500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-1.69_10899.txt) | 69 | 10899 | R | 06-apr-23
 [nyc-n2500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-2.69_10811.txt) | 69 | 10811 | R | 06-apr-23
 [nyc-n2500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-3.34_10975.txt) | 34 | 10975 | SB | 11-feb-19
 [nyc-n2500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-4.44_12265.txt) | 44 | 12265 | SB | 11-feb-19
 [nyc-n2500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-5.44_11457.txt) | 44 | 11457 | SB | 11-feb-19
-[poa-n2500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2500-1.301_29790.txt) | 301 | 29790 | SB | 11-feb-19
+[poa-n2500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2500-1.300_30429.txt) | 300 | 30429 | VRt | 19-apr-23
 [poa-n2500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2500-2.158_23635.txt) | 158 | 23635 | SB | 11-feb-19
 [poa-n2500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2500-3.79_22954.txt) | 79 | 22954 | SB | 11-feb-19
 [poa-n2500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n2500-4.81_24096.txt) | 81 | 24096 | SB | 11-feb-19
@@ -317,15 +317,15 @@ Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
 [bar-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-1.153_22537.txt) | 153 | 22537 | Shobb | 17-jan-23
 [bar-n3000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-2.148_19887.txt) | 148 | 19887 | Shobb | 17-jan-23
-[bar-n3000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-3.57_11684.txt) | 57 | 11684 | SB | 11-feb-19
-[bar-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-4.261_27374.txt) | 261 | 27374 | SB | 11-feb-19
+[bar-n3000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-3.57_11444.txt) | 57 | 11444 | VRt | 19-apr-23
+[bar-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-4.255_27822.txt) | 255 | 27822 | VRt | 19-apr-23
 [bar-n3000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-5.158_20760.txt) | 158 | 20760 | SB | 11-feb-19
 [bar-n3000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-6.79_21718.txt) | 79 | 21718 | SB | 11-feb-19
 [bar-n3000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-7.78_22164.txt) | 78 | 22164 | SB | 11-feb-19
 [ber-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-1.297_36474.txt) | 297 | 36474 | Shobb | 03-jan-23
 [ber-n3000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-2.220_37230.txt) | 220 | 37230 | R | 06-apr-23
 [ber-n3000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-3.189_43465.txt) | 189 | 43465 | SB | 11-feb-19
-[ber-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-4.240_22502.txt) | 240 | 22502 | SB | 11-feb-19
+[ber-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-4.236_23579.txt) | 236 | 23579 | VRt | 19-apr-23
 [ber-n3000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-5.136_16303.txt) | 136 | 16303 | SB | 11-feb-19
 [ber-n3000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-6.99_14946.txt) | 99 | 14946 | SB | 11-feb-19
 [ber-n3000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-7.461_59730.txt) | 461 | 59730 | SB | 11-feb-19
@@ -349,29 +349,29 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-1.155_28250.txt) | 155 | 28250 | SB | 11-feb-19
-[bar-n4000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-2.103_27906.txt) | 103 | 27906 | R | 06-apr-23
+[bar-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-1.152_29783.txt) | 152 | 29783 | VRt | 19-apr-23
+[bar-n4000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-2.101_25652.txt) | 101 | 25652 | VRt | 19-apr-23
 [bar-n4000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-3.102_28725.txt) | 102 | 28725 | SB | 11-feb-19
-[bar-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-4.157_17479.txt) | 157 | 17479 | SB | 11-feb-19
-[bar-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-5.157_13275.txt) | 157 | 13275 | SB | 11-feb-19
-[bar-n4000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-6.156_26404.txt) | 156 | 26404 | SB | 11-feb-19
-[ber-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-1.563_70837.txt) | 563 | 70837 | R | 06-apr-23
+[bar-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-4.155_15376.txt) | 155 | 15376 | VRt | 19-apr-23
+[bar-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-5.152_14524.txt) | 152 | 14524 | VRt | 19-apr-23
+[bar-n4000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n4000-6.150_28907.txt) | 150 | 28907 | VRt | 19-apr-23
+[ber-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-1.556_63153.txt) | 556 | 63153 | VRt | 19-apr-23
 [ber-n4000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-2.411_35153.txt) | 411 | 35153 | SB | 11-feb-19
 [ber-n4000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-3.136_21191.txt) | 136 | 21191 | SB | 11-feb-19
-[ber-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-4.176_18949.txt) | 176 | 18949 | SB | 11-feb-19
-[ber-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-5.146_26647.txt) | 146 | 26647 | SB | 11-feb-19
-[ber-n4000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-6.324_56965.txt) | 324 | 56965 | SB | 11-feb-19
+[ber-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-4.175_20594.txt) | 175 | 20594 | VRt | 19-apr-23
+[ber-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-5.146_25787.txt) | 146 | 25787 | VRt | 19-apr-23
+[ber-n4000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-6.321_53874.txt) | 321 | 53874 | VRt | 19-apr-23
 [ber-n4000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-7.155_53768.txt) | 155 | 53768 | SB | 11-feb-19
 [nyc-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n4000-1.119_18927.txt) | 119 | 18927 | R | 06-apr-23
 [nyc-n4000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n4000-2.109_17032.txt) | 109 | 17032 | R | 06-apr-23
 [nyc-n4000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n4000-3.113_18256.txt) | 113 | 18256 | R | 06-apr-23
 [nyc-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n4000-4.60_17909.txt) | 60 | 17909 | SB | 11-feb-19
 [nyc-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n4000-5.64_20314.txt) | 64 | 20314 | R | 06-apr-23
-[poa-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-1.510_59098.txt) | 510 | 59098 | SB | 11-feb-19
+[poa-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-1.500_51001.txt) | 500 | 51001 | VRt | 19-apr-23
 [poa-n4000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-2.507_57828.txt) | 507 | 57828 | R | 06-apr-23
 [poa-n4000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-3.192_24196.txt) | 192 | 24196 | SB | 11-feb-19
-[poa-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-4.373_48273.txt) | 373 | 48273 | SB | 11-feb-19
-[poa-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-5.399_53608.txt) | 399 | 53608 | R | 06-apr-23
+[poa-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-4.356_41107.txt) | 356 | 41107 | VRt | 19-apr-23
+[poa-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-5.392_48046.txt) | 392 | 48046 | VRt | 19-apr-23
 [poa-n4000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-6.518_53530.txt) | 518 | 53530 | Shobb | 21-feb-23
 [poa-n4000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n4000-7.139_40480.txt) | 139 | 40480 | SB | 11-feb-19
 
@@ -383,29 +383,29 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-1.227_26758.txt) | 227 | 26758 | SB | 11-feb-19
-[bar-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-2.94_15954.txt) | 94 | 15954 | SB | 11-feb-19
+[bar-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-1.220_25124.txt) | 220 | 25124 | VRt | 19-apr-23
+[bar-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-2.92_17633.txt) | 92 | 17633 | VRt | 19-apr-23
 [bar-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-3.260_37046.txt) | 260 | 37046 | SB | 11-feb-19
-[bar-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-4.590_51064.txt) | 590 | 51064 | SB | 11-feb-19
-[bar-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-5.410_47013.txt) | 410 | 47013 | SB | 11-feb-19
-[bar-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-6.269_38956.txt) | 269 | 38956 | SB | 11-feb-19
+[bar-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-4.555_48775.txt) | 555 | 48775 | VRt | 19-apr-23
+[bar-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-5.397_38857.txt) | 397 | 38857 | VRt | 19-apr-23
+[bar-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n5000-6.261_34066.txt) | 261 | 34066 | VRt | 19-apr-23
 [ber-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-1.698_82255.txt) | 698 | 82255 | Shobb | 21-feb-23
 [ber-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-2.406_70691.txt) | 406 | 70691 | R | 06-apr-23
 [ber-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-3.185_63113.txt) | 185 | 63113 | SB | 11-feb-19
-[ber-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-4.322_77502.txt) | 322 | 77502 | SB | 11-feb-19
+[ber-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-4.314_65841.txt) | 314 | 65841 | VRt | 19-apr-23
 [ber-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-5.478_30869.txt) | 478 | 30869 | Shobb | 28-feb-23
-[ber-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-6.165_21704.txt) | 165 | 21704 | SB | 11-feb-19
+[ber-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-6.161_23965.txt) | 161 | 23965 | VRt | 19-apr-23
 [ber-n5000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n5000-7.418_73409.txt) | 418 | 73409 | R | 06-apr-23
 [nyc-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-1.130_15902.txt) | 130 | 15902 | Shobb | 21-feb-23
 [nyc-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-2.145_23288.txt) | 145 | 23288 | R | 06-apr-23
 [nyc-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-3.68_17140.txt) | 68 | 17140 | Shobb | 28-feb-23
 [nyc-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-4.83_28246.txt) | 83 | 28246 | R | 06-apr-23
 [nyc-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n5000-5.72_19103.txt) | 72 | 19103 | SB | 11-feb-19
-[poa-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-1.290_62712.txt) | 290 | 62712 | SB | 11-feb-19
+[poa-n5000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-1.285_54129.txt) | 285 | 54129 | VRt | 19-apr-23
 [poa-n5000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-2.152_44567.txt) | 152 | 44567 | SB | 11-feb-19
 [poa-n5000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-3.286_60628.txt) | 286 | 60628 | SB | 11-feb-19
-[poa-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-4.221_27732.txt) | 221 | 27732 | SB | 11-feb-19
-[poa-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-5.364_36457.txt) | 364 | 36457 | SB | 11-feb-19
+[poa-n5000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-4.215_24377.txt) | 215 | 24377 | VRt | 19-apr-23
+[poa-n5000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-5.352_29937.txt) | 352 | 29937 | VRt | 19-apr-23
 [poa-n5000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-6.114_29437.txt) | 114 | 29437 | SB | 11-feb-19
 [poa-n5000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n5000-7.222_51725.txt) | 222 | 51725 | SB | 11-feb-19
 
@@ -415,11 +415,13 @@ Instance | Vehicles | Cost | Reference | Date
 
 ## References
 
-R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - RideCo (rideco.com)
+R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)
 
 SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
 
 Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )
+
+VRt &nbsp; &mdash; &nbsp; Dmitriy Demin, Mikhail Diakov (msd `at` veeroute `dot` com), Ivan Ilin, Nikita Ivanov, Viacheslav Sokolov (vs `at` veeroute `dot` com) et al. [VRt Global](https://veeroute.com/)
 
 ## File structure
 
