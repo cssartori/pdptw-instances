@@ -1,0 +1,32 @@
+Instance name : ber-n200-1
+Authors       : Dmitriy Demin, Mikhail Diakov (msd@veeroute.com), Ivan Ilin, Nikita Ivanov, Viacheslav Sokolov (vs@veeroute.com) et al. VRt Global (https://veeroute.com/)
+Date          : 2023-04-24
+Reference     : veeroute.com
+Solution
+Route 1 : 94 194 88 69 27 169 188 127
+Route 2 : 95 84 92 192 184 195
+Route 3 : 46 26 18 82 146 118 126 182
+Route 4 : 28 38 90 2 128 138 102 190
+Route 5 : 35 135 58 17 117 158
+Route 6 : 87 7 49 59 149 107 159 187
+Route 7 : 9 21 81 109 181 121
+Route 8 : 65 37 137 91 191 165
+Route 9 : 45 76 31 176 145 78 131 178
+Route 10 : 8 19 61 119 161 108 54 154 24 124
+Route 11 : 34 134 14 29 114 36 129 136
+Route 12 : 1 23 10 123 110 101 73 89 189 173
+Route 13 : 80 57 56 180 156 157
+Route 14 : 74 53 60 153 48 174 160 148
+Route 15 : 99 22 199 122 86 68 168 186
+Route 16 : 93 98 193 198 96 196
+Route 17 : 52 72 77 33 152 172 133 177
+Route 18 : 63 71 39 139 163 171 66 166
+Route 19 : 67 3 42 16 103 167 142 116
+Route 20 : 11 40 32 140 111 132
+Route 21 : 15 43 115 83 143 183
+Route 22 : 51 50 47 13 150 147 151 113
+Route 23 : 75 12 55 64 175 112 164 155
+Route 24 : 79 6 20 120 106 4 179 104
+Route 25 : 25 41 100 125 141 200
+Route 26 : 30 5 97 85 185 130 105 197
+Route 27 : 62 44 70 162 170 144
