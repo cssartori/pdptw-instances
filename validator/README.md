@@ -22,6 +22,18 @@ The parameters `path/to/solutions/` and `path/to/instances/` are directories con
 
 The `updater.py` script is responsible for updating the result tables automatically, and it should not be used.
 
+## Errors
+
+If you encounter the error 
+
+```
+ValueError: invalid literal for int() with base 10: 'txt'
+```
+
+when using `checker.py`, this likely means that the naming of your solution file is incorrect. The name of the solution file should contain the instance name, the number of vehicles used and the cost of the solution. For example, the file name `bar-n100-1.6_733.txt` is a valid one. For more information, consult the [solutions' folder](https://github.com/cssartori/pdptw-instances/tree/master/solutions).
+
+In the case of other errors, please do not hesitate to get in touch to report them.
+
 ## More information
 
 For more information about the problem description and constraints, we refer to our [original paper](https://doi.org/10.1016/j.cor.2020.105065).

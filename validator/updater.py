@@ -102,14 +102,19 @@ def write_solution_tables(nbks):
 		
 
 	text = ("%s\n## References\n\n"
-            "R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)\n\n"
+			"R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)\n\n"
 			"SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
 			"Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )\n\n"
-            "VRt &nbsp; &mdash; &nbsp; Dmitriy Demin, Mikhail Diakov (msd `at` veeroute `dot` com), Ivan Ilin, Nikita Ivanov, Viacheslav Sokolov (vs `at` veeroute `dot` com) et al. [VRt Global](https://veeroute.com/)\n\n"
-			"## File structure\n\n"
-			"All instance files are structured in a common way. They follow the default format from SINTEF's website for the PDPTW and VRPTW instances SINTEF maintains. "
-			"The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. "
-			"However, one can also inspect the solution files to verify their strucutre. Note that the depot is not included in the routes. Additionally, no time or load information is explicitly included, only the sequence of visits for each route.\n\n" % (text))
+			"VRt &nbsp; &mdash; &nbsp; Dmitriy Demin, Mikhail Diakov (msd `at` veeroute `dot` com), Ivan Ilin, Nikita Ivanov, Viacheslav Sokolov (vs `at` veeroute `dot` com) et al. [VRt Global](https://veeroute.com/)\n\n"
+			"VACS &nbsp; &mdash; &nbsp; Simen T. Vadseth, Henrik Andersson, Jean-Francois Cordeau and Magnus Stålhane. To be announced.\n\n"
+			"## File naming and structure\n\n"
+			"Be aware of the naming convention of the solution files. They should be named as\n\n"
+			"```\n"
+			"<instance-name>.<num-vehicles>_<cost>.txt\n"
+			"```\n\n"
+			"where `<instance-name` is the name of the instance this solution refers to, `<num-vehicles>` is the number of vehicles (or routes) in the solution and `<cost>` is the cost (or total distance/time) of this solution with no decimal places given that cost values are always integers for these instances.\n\n"
+			"In terms of structure, all of the solution files are structured in a common way. We have opted to use the default format from SINTEF's website for the PDPTW and VRPTW instances that SINTEF maintains. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. However, one can also inspect the solution files to verify their strucutre. Note that the depot is not included in the routes. Additionally, no time or load information is explicitly included, only the sequence of visits for each route.\n"
+		% (text))
 
 	with open("../solutions/README.md", "w") as f:
 		f.write(text)

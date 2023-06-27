@@ -68,17 +68,21 @@ class Instance:
 					
 class Solution:
 	def __init__(self):
+		self.inst_name = ""
 		self.cost = 0
 		self.routes = list()
 
 	def read_from_file(self, filename):
-		with open(filename,"r") as f:
+		with open(filename,"r", errors='ignore') as f:
 			self.cost = 0
 			self.routes = list()
 			
 			## read past HEADER information
 			for x in range(0,5):
 				line = f.readline()
+				cl = line.split(" : ")
+				if cl[0] == "Instance name":
+					self.inst_name = cl[1][:-1]
 
 			for line in f:
 				## read each route and get sequence of nodes
