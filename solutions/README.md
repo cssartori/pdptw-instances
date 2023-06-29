@@ -221,8 +221,8 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n1500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-6.159_12812.txt) | 159 | 12812 | VACS | 24-jun-23
 [bar-n1500-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n1500-7.39_10054.txt) | 39 | 10054 | VACS | 24-jun-23
 [ber-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-1.168_23010.txt) | 168 | 23010 | VACS | 24-jun-23
-[ber-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-2.69_8517.txt) | 69 | 8517 | VRt | 25-apr-23
-[ber-n1500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-3.70_9155.txt) | 70 | 9155 | VACS | 24-jun-23
+[ber-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-2.68_8624.txt) | 68 | 8624 | VRt | 29-jun-23
+[ber-n1500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-3.70_9129.txt) | 70 | 9129 | VRt | 29-jun-23
 [ber-n1500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-4.36_8693.txt) | 36 | 8693 | VACS | 24-jun-23
 [ber-n1500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-5.173_24477.txt) | 173 | 24477 | VACS | 24-jun-23
 [ber-n1500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-6.98_21222.txt) | 98 | 21222 | VACS | 24-jun-23
@@ -327,7 +327,7 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n3000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-3.189_40437.txt) | 189 | 40437 | VRt | 25-apr-23
 [ber-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-4.236_22669.txt) | 236 | 22669 | VRt | 25-apr-23
 [ber-n3000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-5.136_16223.txt) | 136 | 16223 | VRt | 25-apr-23
-[ber-n3000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-6.99_14640.txt) | 99 | 14640 | VRt | 25-apr-23
+[ber-n3000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-6.98_14755.txt) | 98 | 14755 | VRt | 29-jun-23
 [ber-n3000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n3000-7.455_52601.txt) | 455 | 52601 | VRt | 25-apr-23
 [nyc-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n3000-1.79_10992.txt) | 79 | 10992 | R | 13-jun-23
 [nyc-n3000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n3000-2.78_11722.txt) | 78 | 11722 | R | 13-jun-23
@@ -359,7 +359,7 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n4000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-2.388_27461.txt) | 388 | 27461 | VACS | 24-jun-23
 [ber-n4000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-3.135_21411.txt) | 135 | 21411 | VRt | 06-may-23
 [ber-n4000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-4.173_19669.txt) | 173 | 19669 | VRt | 06-may-23
-[ber-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-5.146_24792.txt) | 146 | 24792 | VACS | 24-jun-23
+[ber-n4000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-5.146_24631.txt) | 146 | 24631 | VRt | 29-jun-23
 [ber-n4000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-6.317_50881.txt) | 317 | 50881 | VACS | 24-jun-23
 [ber-n4000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n4000-7.155_50499.txt) | 155 | 50499 | VACS | 24-jun-23
 [nyc-n4000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n4000-1.118_17710.txt) | 118 | 17710 | VACS | 24-jun-23
@@ -436,4 +436,3 @@ Be aware of the naming convention of the solution files. They should be named as
 where `<instance-name` is the name of the instance this solution refers to, `<num-vehicles>` is the number of vehicles (or routes) in the solution and `<cost>` is the cost (or total distance/time) of this solution with no decimal places given that cost values are always integers for these instances.
 
 In terms of structure, all of the solution files are structured in a common way. We have opted to use the default format from SINTEF's website for the PDPTW and VRPTW instances that SINTEF maintains. The file [sample.txt](https://github.com/cssartori/pdptw-instances/blob/master/solutions/sample.txt) contains a sample description of a solution file. However, one can also inspect the solution files to verify their strucutre. Note that the depot is not included in the routes. Additionally, no time or load information is explicitly included, only the sequence of visits for each route.
-
