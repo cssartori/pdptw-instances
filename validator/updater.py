@@ -13,7 +13,9 @@ def __prepareargs__():
 	parser.add_argument('-d', nargs=1, type=str, help='Submission date of solution files', required=True)
 	parser.add_argument('-b', nargs=1, type=str, help='File with best-known values', required=False, default="bks.dat")
 	parser.add_argument('-c', nargs=1, type=str, help='Directory with current best-known solution files', required=False, default="../solutions/files/")
-    
+	parser.add_argument('--verbose', dest='verbose', action='store_true', help='Whether to print some information', required=False)
+	parser.set_defaults(verbose=False)
+
 	return parser
 
 #Parse the input arguments and returns a dictionary with them
@@ -126,15 +128,15 @@ def update_solution_files(dir_cur_sol, dir_new_sol, obks, nbks):
 
 		os.remove(dir_cur_sol+("%s.%d_%d.txt" % (inst, obks[inst][2], obks[inst][3])))
 		shutil.copy(dir_new_sol+("%s.%d_%d.txt" % (inst, nbks[inst][2], nbks[inst][3])), dir_cur_sol)
-	
-		
+
+
 if __name__ == '__main__':
 	## receive and prepare the arguments
 	parser = __prepareargs__()
 	args = __getargs__(parser)
-	
+
 	print("Reading parameters...")
-	
+
     ## read parameters
 	dir_new_sol = args['s'][0] ## directory with new solutions
 	dir_instances = args['i'][0] ## directory with the instances of the problem
@@ -142,20 +144,23 @@ if __name__ == '__main__':
 	date = args['d'][0] ## date
 	bks_filename = args['b'][0] ## filename containing current BKV results
 	dir_cur_sol = args['c'][0] ## directory containing current BKS
+	verbose = args['verbose']
 
 	print("Validating solutions in %s" % (dir_new_sol))
-	valsol,logstr,cinv = checker.check_solutions(dir_instances, dir_new_sol)
-	
+	valsol,logstr,cinv = checker.check_solutions(dir_instances, dir_new_sol, verbose)
+
 	if cinv > 0:
 		print("WARNING: There are %d invalid solutions" % (cinv))
 		logstr = "%sWARNING: There are %d invalid solutions\n" % (logstr, cinv)
 	else:
 		logstr = "%sAll %d instances are good!\n" % (logstr,len(valsol))
-		
+		if verbose:
+			print("All %d instances are good!" % (len(valsol)))
+
 	print("Reading BKS file %s" % (bks_filename))
 	bks = read_bks_file(bks_filename)
 	nbks = copy.deepcopy(bks)
-	
+
 	improves = 0
 	ties = 0
 	for i in valsol.keys():
@@ -170,17 +175,23 @@ if __name__ == '__main__':
 			nbks[i][5] = date
 			improves += 1
 			logstr = "%sImproved..........%s\n" % (logstr, i)
+			if verbose:
+				print("Improved..........%s" % (i))
 		elif (valsol[i][0] == bks[i][2] and valsol[i][1] == bks[i][3]):
 			ties += 1
 			logstr = "%sTie...............%s\n" % (logstr, i)
+			if verbose:
+				print("Tie...............%s\n" % (i))
 		else:
 			logstr = "%sWORSE.............%s\n" % (logstr, i)
+			if verbose:
+				print("WORSE.............%s\n" % (i))
 
 	if improves > 0:
 		print("A total of %d solutions were improved" % (improves))
 	else:
 		print("WARNING: No solution improved. Did something go wrong?")
-		
+
 	logstr = "%sThere were %d improvements, %d ties, and %d worse solutions\n" % (logstr, improves, ties, len(valsol)-(improves+ties))
 
 	if improves > 0:
@@ -190,9 +201,8 @@ if __name__ == '__main__':
 		write_bks_file(bks_filename, nbks)
 		print("Writing solution tables")
 		write_solution_tables(nbks)
-	
+
 	with open("log.txt", "w") as f:
 		f.write(logstr)
 
-	
-	
+
