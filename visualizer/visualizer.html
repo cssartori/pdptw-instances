@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDPTW Visualizer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/shapes.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script src="https://kit.fontawesome.com/0a8561bf88.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+
+
+    <script type="text/javascript" src="https://unpkg.com/moment@latest"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-data@latest/peer/umd/vis-data.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-timeline@latest/peer/umd/vis-timeline-graph2d.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/vis-timeline/styles/vis-timeline-graph2d.min.css" />
+    <script type="text/javascript" src="https://unpkg.com/vis-network@latest/peer/umd/vis-network.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+    <div id="mySideBar" class="sidebar">
+        <div style="text-align: center;font-size: 20px;color: #d3cdcd;">
+            <p><b>PDPTW Visualizer</b></p>
+        </div>
+
+        <hr width="90%">
+
+        <a href="#" onclick="document.getElementById('load_instance').click()"><i class="fa fa-fw fa-folder"></i> Load instance</a>
+
+        <hr width="90%">
+
+        <a id="load_solution_btn" href="#" onclick="document.getElementById('load_solution').click()"><i class="fa fa-fw fa-folder"></i> Load solution</a>
+
+        <hr width="90%">
+
+        <button id="nodes_button" class="dropdown-btn"><i class="fa fa-fw fa-box"></i> Nodes <i id="nodes-icon" class="fa fa-angle-down"></i></button>
+        <div id="nodes_dropdown" class="dropdown-container"></div>
+
+        <hr width="90%">
+
+        <button id="routes_button" class="dropdown-btn"><i class="fa fa-fw fa-route"></i> Routes <i id="routes-icon" class="fa fa-angle-down"></i></button>
+        <div id="routes_dropdown" class="dropdown-container"></div>
+
+        <hr width="90%">
+
+        <input type="file" id="load_instance" style='display: none;' title="Select instance file" accept=".txt" onchange="read_instance_file(this)">
+        <input type="file" id="load_solution" style='display: none;' title="Select solution file" accept=".txt" onchange="read_solution_file(this)">
+    </div>
+
+    <script type="text/javascript" src="src/general.js" ></script>
+
+    <div id="map" style="width:83%; left:17%"></div>
+    <script type="text/javascript" src="src/structures.js" ></script>
+    <script type="text/javascript" src="src/reader.js" ></script>
+    <script type="text/javascript" src="src/mapper.js" ></script>
+</div>
+
+<script type="text/javascript">
+    window.onload = startup;
+</script>
+
+</body>
+</html>

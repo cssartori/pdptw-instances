@@ -1,0 +1,132 @@
+:root{
+    --panel-color: rgba(70, 66, 66, 0.79);
+}
+
+html, body, #container {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    width: 17%;
+    background-color: var(--panel-color);
+    transition: 0.5s;
+    z-index: 998;
+    padding-top: 20px;
+    font-family: Arial, serif;
+    /*opacity: .85;*/
+}
+.sidebar a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d3cdcd;
+    display: block;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    background-color: rgba(108, 104, 104, 0.79);
+    text-align: left;
+    width:100%;
+    cursor: pointer;
+}
+
+
+.label {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #888888;
+    display: block;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    background-color: #696565;
+    text-align: left;
+    width:100%;
+}
+
+.sidebar a:hover, .dropdown-btn:hover {
+    color: #ee9d8c;
+}
+
+.btn-dis {
+    color: #003cff;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    margin-left: 80%;
+}
+#map {
+    /*box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);*/
+    height: 100%;
+    width: 100%;
+}
+.sidebar-wrapper {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    /*background-color: #8d8d8d;*/
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    /*background-color: #676666;*/
+    padding-left: 8px;
+    height: 33%;
+    overflow: auto;
+}
+
+/* Optional: Style the caret down icon */
+.fa-angle-down {
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    top: 6px;
+    transform: rotate(90deg);
+    transition: transform 0.3s linear;
+}
+
+.fa-angle-down.open{
+    float: right;
+    padding-right: 10px;
+    transform: rotate(0deg);
+    transition: transform 0.3s linear;
+}
+
+
+.rightSideButtons{
+    font-size:30px;
+    cursor:pointer;
+    z-index: 999;
+    position: absolute;
+    right:0.8%;
+    transition: 0.2s;
+    /*background-color:#ffffff;*/
+}
+
+@media screen and (max-width: 767px) {
+    /*.sidebar {*/
+    /*    display: none;*/
+    /*}*/
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}

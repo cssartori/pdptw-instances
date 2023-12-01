@@ -1,0 +1,74 @@
+
+.pickup-marker, .pickup-marker-opaque {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+    background: #db0f0f;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.delivery-marker, .delivery-marker-opaque {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-image: linear-gradient(
+            to bottom right,
+            transparent 0 50%,
+            #000000 50% 100%
+    ),
+    linear-gradient(
+            to bottom left,
+            transparent 0 50%,
+            #000000 50% 100%
+    );
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.delivery-marker:before, .delivery-marker-opaque:before {
+    content: '';
+    position: relative;
+    display: block;
+    width: 68%;
+    height: 68%;
+    margin: auto;
+    background-image: linear-gradient(
+            to bottom right,
+            transparent 0 50%,
+            #227cab 50% 100%
+    ),
+    linear-gradient(
+            to bottom left,
+            transparent 0 50%,
+            #227cab 50% 100%
+    );
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    top: 20%;
+    left: 2%;
+}
+
+
+.depot-marker, .depot-marker-opaque{
+    width: 10px;
+    height: 10px;
+    background: #111111;
+}
+
+.pickup-marker-opaque{
+    opacity: 0.4;
+}
+
+.delivery-marker-opaque{
+    opacity: 0.4;
+}
+
+.depot-marker-opaque{
+    opacity: 0.4;
+}

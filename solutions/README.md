@@ -1,8 +1,8 @@
-# Best-known solutions
+# Best known solutions
 
-Here you can find the best-known solutions (BKS) for the PDPTW instances. In the tables below, solutions are grouped according to the instance size (number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has exactly 25 instances.
+Here you can find the best known solutions (BKS) for the PDPTW instances in this repository. The tables below group solutions  according to the instance size (total number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has exactly 25 instances.
 
-For each solution there is a detailed solution file available (you may inspect the file by clikcing the link). The tables present the name of the instance, the number of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.
+For each solution, there is an available file (you may inspect the file by clicking the link). The tables present the name of the instance, the number of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.
 
 <details><summary>100 locations</summary>
 <p>
@@ -417,7 +417,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)
 
-SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)
+SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A study on the Pickup and Delivery Problem with Time Windows: Matheuristics and new instances. Available in [COR]((https://doi.org/10.1016/j.cor.2020.105065))
 
 Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )
 

@@ -6,7 +6,7 @@ The 300 instance files are too large to be stored in this git repository due to 
 
 ## Download
 
-The instances now have an official dataset in Mendeley Data, which includes an associated permanent link. All the instance files can be downloaded from:
+The instances have an official dataset in Mendeley Data, which has a permanent link. All the instance files can be downloaded from:
 
 https://data.mendeley.com/datasets/wr2ct4r22f/2
 

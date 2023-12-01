@@ -82,11 +82,10 @@ def write_solution_tables(nbks):
 			return 0
 	
 	text = ("# Best-known solutions\n\n"
-	 "Here you can find the best-known solutions (BKS) for the PDPTW instances. In the tables below, solutions are grouped according to the instance size "
-	 "(number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has "
-	 "exactly 25 instances.\n\n"
-	 "For each solution there is a detailed solution file available (you may inspect the file by clikcing the link). The tables present the name of the instance, the number "
-	 "of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.\n\n")
+		"Here you can find the best known solutions (BKS) for the PDPTW instances in this repository. The tables below group solutions  according to the instance size (total number of locations). There are 12 sizes: 100, 200, 400, 600, 800, 1000, 1500, 2000, 2500, 3000, 4000, and 5000 locations. Each group has exactly 25 instances.\n\n"
+		"For each solution, there is an available file (you may inspect the file by clicking the link). The tables present the name of the instance, the number of vehicles and cost in the current BKS solution, a reference that found the solution, and the date it was submitted.\n\n"
+	)
+
 	keylist = list(nbks.keys())
 	keylist.sort(key=functools.cmp_to_key(comp_inst))
 	for size in [100,200,400,600,800,1000,1500,2000,2500,3000,4000,5000]:
@@ -105,7 +104,7 @@ def write_solution_tables(nbks):
 
 	text = ("%s\n## References\n\n"
 			"R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)\n\n"
-			"SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A matheuristic approach to the PDPTW (to be submitted)\n\n"
+			"SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A study on the Pickup and Delivery Problem with Time Windows: Matheuristics and new instances. Available in [COR]((https://doi.org/10.1016/j.cor.2020.105065))\n\n"
 			"Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )\n\n"
 			"VRt &nbsp; &mdash; &nbsp; Dmitriy Demin, Mikhail Diakov (msd `at` veeroute `dot` com), Ivan Ilin, Nikita Ivanov, Viacheslav Sokolov (vs `at` veeroute `dot` com) et al. [VRt Global](https://veeroute.com/)\n\n"
 			"VACS &nbsp; &mdash; &nbsp; Simen T. Vadseth, Henrik Andersson, Jean-Francois Cordeau and Magnus Stålhane. To be announced.\n\n"
