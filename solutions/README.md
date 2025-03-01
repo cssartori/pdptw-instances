@@ -227,10 +227,10 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n1500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-5.171_24642.txt) | 171 | 24642 | HS | 30-apr-24
 [ber-n1500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-6.95_21826.txt) | 95 | 21826 | HS | 30-apr-24
 [ber-n1500-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n1500-7.95_22243.txt) | 95 | 22243 | HS | 30-apr-24
-[nyc-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-1.44_6715.txt) | 44 | 6715 | VACS | 11-jul-23
-[nyc-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-2.46_6968.txt) | 46 | 6968 | HS | 30-apr-24
-[nyc-n1500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-3.42_6347.txt) | 42 | 6347 | VACS | 11-jul-23
-[nyc-n1500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-4.25_7524.txt) | 25 | 7524 | VACS | 11-jul-23
+[nyc-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-1.44_6710.txt) | 44 | 6710 | Shobb | 24-feb-25
+[nyc-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-2.46_6832.txt) | 46 | 6832 | Shobb | 24-feb-25
+[nyc-n1500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-3.42_6324.txt) | 42 | 6324 | Shobb | 24-feb-25
+[nyc-n1500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-4.25_7519.txt) | 25 | 7519 | Shobb | 24-feb-25
 [nyc-n1500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1500-5.21_5946.txt) | 21 | 5946 | VACS | 11-jul-23
 [poa-n1500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1500-1.141_17038.txt) | 141 | 17038 | VACS | 11-jul-23
 [poa-n1500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1500-2.195_22755.txt) | 195 | 22755 | HS | 30-apr-24
@@ -255,13 +255,13 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n2000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-6.175_9426.txt) | 175 | 9426 | VACS | 11-jul-23
 [bar-n2000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n2000-7.66_9407.txt) | 66 | 9407 | VACS | 11-jul-23
 [ber-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-1.72_13131.txt) | 72 | 13131 | VACS | 11-jul-23
-[ber-n2000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-2.274_31945.txt) | 274 | 31945 | VACS | 11-jul-23
-[ber-n2000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-3.157_26931.txt) | 157 | 26931 | HS | 30-apr-24
-[ber-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-4.239_35868.txt) | 239 | 35868 | HS | 30-apr-24
-[ber-n2000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-5.134_32831.txt) | 134 | 32831 | HS | 30-apr-24
+[ber-n2000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-2.274_31943.txt) | 274 | 31943 | Shobb | 24-feb-25
+[ber-n2000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-3.157_26695.txt) | 157 | 26695 | Shobb | 24-feb-25
+[ber-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-4.239_35862.txt) | 239 | 35862 | Shobb | 24-feb-25
+[ber-n2000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-5.134_32795.txt) | 134 | 32795 | Shobb | 24-feb-25
 [ber-n2000-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-6.110_30608.txt) | 110 | 30608 | HS | 30-apr-24
 [ber-n2000-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2000-7.131_30622.txt) | 131 | 30622 | HS | 30-apr-24
-[nyc-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2000-1.53_8051.txt) | 53 | 8051 | HS | 30-apr-24
+[nyc-n2000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2000-1.53_7914.txt) | 53 | 7914 | Shobb | 24-feb-25
 [nyc-n2000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2000-2.52_7696.txt) | 52 | 7696 | VACS | 11-jul-23
 [nyc-n2000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2000-3.30_9111.txt) | 30 | 9111 | VACS | 11-jul-23
 [nyc-n2000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2000-4.26_7710.txt) | 26 | 7710 | HS | 30-apr-24
@@ -294,7 +294,7 @@ Instance | Vehicles | Cost | Reference | Date
 [ber-n2500-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-5.258_21282.txt) | 258 | 21282 | VACS | 11-jul-23
 [ber-n2500-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-6.284_42162.txt) | 284 | 42162 | HS | 30-apr-24
 [ber-n2500-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n2500-7.167_40003.txt) | 167 | 40003 | HS | 30-apr-24
-[nyc-n2500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-1.67_10390.txt) | 67 | 10390 | HS | 30-apr-24
+[nyc-n2500-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-1.67_10342.txt) | 67 | 10342 | Shobb | 24-feb-25
 [nyc-n2500-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-2.67_10395.txt) | 67 | 10395 | HS | 30-apr-24
 [nyc-n2500-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-3.31_9379.txt) | 31 | 9379 | HS | 30-apr-24
 [nyc-n2500-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n2500-4.41_12833.txt) | 41 | 12833 | HS | 30-apr-24
@@ -421,7 +421,7 @@ HS &nbsp; &mdash; &nbsp; Gerhard Hiermann and Maximilian Schiffer. A decompositi
 
 R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)
 
-SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A study on the Pickup and Delivery Problem with Time Windows: Matheuristics and new instances. Available in [COR]((https://doi.org/10.1016/j.cor.2020.105065))
+SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A study on the Pickup and Delivery Problem with Time Windows: Matheuristics and new instances. Available in [COR](https://doi.org/10.1016/j.cor.2020.105065)
 
 Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )
 
