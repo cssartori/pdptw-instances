@@ -415,7 +415,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 ## References
 
-ARS &nbsp; &mdash; &nbsp; Dmitriy Churilov and Alexander Galko. Advantum Routing System ([advantum.ru/route](advantum.ru/route).
+ARS &nbsp; &mdash; &nbsp; Dmitriy Churilov and Alexander Galko. Advantum Routing System ([advantum.ru/route](https://advantum.ru/route)).
 
 CH &nbsp; &mdash; &nbsp; CUHKSZ and HWGTS. Joint unpublished work by China Huawei (HW GTS optimization Lab) and Chinese University of Hong Kong (Shenzhen, CUHKSZ).  
 
