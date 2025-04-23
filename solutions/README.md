@@ -414,6 +414,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 
 ## References
+BIG3 &nbsp; &mdash; &nbsp; BIG3 - Dmitriy Yampolskiy, Egor Nikolaev and Daria Savina. Smart Logistics Point by the BigThree team ([Big3](https://big3.ru)).
 
 ARS &nbsp; &mdash; &nbsp; Dmitriy Churilov and Alexander Galko. Advantum Routing System ([advantum.ru/route](https://advantum.ru/route)).
 
