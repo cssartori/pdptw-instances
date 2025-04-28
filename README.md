@@ -26,7 +26,9 @@ An instance and solution visualizer tool is available in the folder [visualizer/
 
 Anyone can contribute with new best known solutions for the proposed instances. All that is needed is to submit the file containing the new candidate solution. For the structure of the solution file, please make every effort to have it in the same way as the one detailed in the folder [solutions/](https://github.com/cssartori/pdptw-instances/tree/master/solutions). A reference to the work that generated the solutions is very much appreciated.
 
-New solutions can be submitted to: cssartori `at` inf  `dot` ufrgs `dot` br
+New solutions should be submitted to: cssartori `at` inf  `dot` ufrgs `dot` br
+
+**Note**: this repository is maintained entirely and solely by me during my free time. Please, refrain from sending multiple emails with "reminders" about your solutions. I will make updates on a strict *FIFO* basis once I have time. If you somehow depend on submissions being published on an open, free Github repository to make any career- or life-changing decisions, I suggest to take a deep breadth and reflect on this choice.
 
 ## Reference in publications
 
