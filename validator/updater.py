@@ -104,6 +104,7 @@ def write_solution_tables(nbks):
 
 	text = ("%s\n## References\n\n"
 			"ARS &nbsp; &mdash; &nbsp; Dmitriy Churilov and Alexander Galko. Advantum Routing System ([advantum.ru/route](https://advantum.ru/route)).\n\n"
+			"BIG3 &nbsp; &mdash; &nbsp; Dmitriy Yampolskiy, Egor Nikolaev and Daria Savina. Smart Logistics Point by the BigThree team ([big3.ru](https://big3.ru)).\n\n"
 			"CH &nbsp; &mdash; &nbsp; CUHKSZ and HWGTS. Joint unpublished work by China Huawei (HW GTS optimization Lab) and Chinese University of Hong Kong (Shenzhen, CUHKSZ).  \n\n"
 			"HS &nbsp; &mdash; &nbsp; Gerhard Hiermann and Maximilian Schiffer. A decomposition-based approach for large-scale pickup and delivery problems [arXiv](https://arxiv.org/abs/2405.00230)\n\n"
 			"R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)\n\n"

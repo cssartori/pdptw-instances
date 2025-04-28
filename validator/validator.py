@@ -1,6 +1,7 @@
 import sys, os, argparse;
 from operator import itemgetter
 import math;
+import re;
 
 class Node:
 	def __init__(self):
@@ -95,11 +96,14 @@ class Solution:
 				
 				## go through each node in sequence
 				for n in sequence:
+					n = re.sub(r"[\n\t\s]*", "", n)
+					if n == "":
+						continue   
 					a = int(n)
 					self.routes[-1].append(a)
 					
 				## append depot as last node
-				self.routes[-1].append(0) 
+				self.routes[-1].append(0)
 
 ###############################################################
 #### The function below is the important part in this code ####
@@ -151,7 +155,7 @@ def validate_solution(inst, sol):
 			break
 		
 	## check if all locations were visited
-	if sum(visited) < inst.size:
+	if result and sum(visited) < inst.size:
 		missing = list()
 		for a in range(1,len(inst.nodes)):
 			if visited[a] == 0:
