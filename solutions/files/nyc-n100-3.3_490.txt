@@ -1,0 +1,8 @@
+Instance name : nyc-n100-3
+Authors : Alexander Yuskov (a.yuskov@g.nsu.ru), Igor Kulachenko (ink@math.nsc.ru), Yury Kochetov, Igor Vasilyev, Zhangdong, Chenjuan, Huanghaohan, Wanglongfei
+Date : 28.05.2025
+Reference : HGIM
+Solution
+Route 1 : 13 1 7 3 11 20 70 57 51 63 53 14 61 39 64 89 9 4 12 59 42 62 54 22 92 46 72 96
+Route 2 : 27 44 47 33 29 77 25 45 83 95 30 5 80 97 79 94 75 55 35 40 21 2 90 18 71 52 8 41 31 68 23 58 17 85 91 81 67 26 76 73
+Route 3 : 28 37 32 19 78 16 82 34 43 87 36 10 93 84 69 86 66 60 50 49 15 6 99 38 56 48 100 24 65 74 98 88

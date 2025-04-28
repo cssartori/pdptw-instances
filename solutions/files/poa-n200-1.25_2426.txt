@@ -1,0 +1,30 @@
+Instance name : poa-n200-1
+Authors : Alexander Yuskov (a.yuskov@g.nsu.ru), Igor Kulachenko (ink@math.nsc.ru), Yury Kochetov, Igor Vasilyev, Zhangdong, Chenjuan, Huanghaohan, Wanglongfei
+Date : 28.05.2025
+Reference : HGIM
+Solution
+Route 1 : 32 17 132 117 41 52 141 152
+Route 2 : 57 6 157 106 74 38 174 138
+Route 3 : 70 86 186 170
+Route 4 : 88 76 188 176 80 180 65 165
+Route 5 : 7 14 107 1 114 82 101 182
+Route 6 : 77 177 24 124 95 195
+Route 7 : 51 15 151 115 81 3 36 103 181 136
+Route 8 : 10 110 93 39 193 139
+Route 9 : 44 84 184 144 53 97 153 197
+Route 10 : 13 11 113 34 134 64 111 164 56 156
+Route 11 : 96 92 30 196 130 192 60 90 190 160
+Route 12 : 21 121 45 87 187 145
+Route 13 : 12 66 54 112 154 166 18 118
+Route 14 : 94 100 200 194 71 171
+Route 15 : 4 83 104 50 183 62 150 162
+Route 16 : 59 43 159 143 35 58 135 158 69 169
+Route 17 : 22 122 85 61 37 137 185 161
+Route 18 : 49 55 29 149 155 75 129 175
+Route 19 : 20 28 120 78 79 128 178 179 26 126
+Route 20 : 98 63 198 47 163 147 5 105
+Route 21 : 42 72 142 99 172 8 199 108
+Route 22 : 33 133 19 40 119 140 67 73 167 173
+Route 23 : 27 9 109 127 46 23 123 146
+Route 24 : 68 168 31 2 102 131 16 48 148 116
+Route 25 : 89 25 189 91 125 191
