@@ -315,7 +315,7 @@ Instance | Vehicles | Cost | Reference | Date
 
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
-[bar-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-1.148_23114.txt) | 148 | 23114 | TU | 15-jun-26
+[bar-n3000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-1.148_23114.txt) | 148 | 23114 | TRB | 15-jun-26
 [bar-n3000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-2.145_21158.txt) | 145 | 21158 | BIG3 | 23-apr-25
 [bar-n3000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-3.55_10318.txt) | 55 | 10318 | BIG3 | 23-apr-25
 [bar-n3000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n3000-4.248_26924.txt) | 248 | 26924 | BIG3 | 23-apr-25
@@ -431,7 +431,7 @@ SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A study on the Pickup
 
 Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )
 
-TU &nbsp; &mdash; &nbsp; Vitalii Demianiuk &nbsp; [turbulance.com](https://turbulance.com/)
+TRB &nbsp; &mdash; &nbsp; Vitalii Demianiuk &nbsp;. [turbalance.com](https://turbalance.com/)
 
 VACS &nbsp; &mdash; &nbsp; Simen T. Vadseth, Henrik Andersson, Jean-Francois Cordeau and Magnus Stålhane. To be announced.
 
