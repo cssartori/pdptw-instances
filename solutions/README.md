@@ -44,7 +44,7 @@ Instance | Vehicles | Cost | Reference | Date
 Instance | Vehicles | Cost | Reference | Date
 :------: | -------: | ---: | :-------: | ---:
 [bar-n200-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n200-1.22_1819.txt) | 22 | 1819 | HGIM | 28-apr-25
-[bar-n200-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n200-2.23_2072.txt) | 23 | 2072 | SB | 11-feb-19
+[bar-n200-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n200-2.22_2137.txt) | 22 | 2137 | PZJYQ | 25-aug-26
 [bar-n200-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n200-3.8_1567.txt) | 8 | 1567 | HGIM | 28-apr-25
 [bar-n200-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n200-4.13_832.txt) | 13 | 832 | CH | 07-dec-24
 [bar-n200-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n200-5.5_842.txt) | 5 | 842 | CH | 07-dec-24
@@ -149,7 +149,7 @@ Instance | Vehicles | Cost | Reference | Date
 [bar-n800-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-2.28_5073.txt) | 28 | 5073 | TRB | 09-aug-26
 [bar-n800-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-3.22_5727.txt) | 22 | 5727 | HGIM | 28-apr-25
 [bar-n800-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-4.24_2705.txt) | 24 | 2705 | TRB | 09-aug-26
-[bar-n800-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-5.80_6039.txt) | 80 | 6039 | HGIM | 28-apr-25
+[bar-n800-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-5.79_6325.txt) | 79 | 6325 | PZJYQ | 25-aug-26
 [bar-n800-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-6.81_6358.txt) | 81 | 6358 | HGIM | 28-apr-25
 [bar-n800-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/bar-n800-7.29_5469.txt) | 29 | 5469 | TRB | 09-aug-26
 [ber-n800-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/ber-n800-1.58_5249.txt) | 58 | 5249 | TRB | 09-aug-26
@@ -167,7 +167,7 @@ Instance | Vehicles | Cost | Reference | Date
 [poa-n800-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-2.71_8033.txt) | 71 | 8033 | CH | 07-dec-24
 [poa-n800-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-3.48_9826.txt) | 48 | 9826 | BIG3 | 23-apr-25
 [poa-n800-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-4.44_8007.txt) | 44 | 8007 | TRB | 09-aug-26
-[poa-n800-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-5.71_4187.txt) | 71 | 4187 | TRB | 09-aug-26
+[poa-n800-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-5.70_4271.txt) | 70 | 4271 | PZJYQ | 25-aug-26
 [poa-n800-6](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-6.35_4046.txt) | 35 | 4046 | TRB | 09-aug-26
 [poa-n800-7](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n800-7.35_8097.txt) | 35 | 8097 | TRB | 09-aug-26
 
@@ -195,7 +195,7 @@ Instance | Vehicles | Cost | Reference | Date
 [nyc-n1000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-1.27_3956.txt) | 27 | 3956 | TRB | 09-aug-26
 [nyc-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-2.31_4866.txt) | 31 | 4866 | ARS | 05-apr-25
 [nyc-n1000-3](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-3.32_4469.txt) | 32 | 4469 | TRB | 09-aug-26
-[nyc-n1000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-4.17_4944.txt) | 17 | 4944 | ARS | 05-apr-25
+[nyc-n1000-4](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-4.17_4930.txt) | 17 | 4930 | PZJYQ | 25-aug-26
 [nyc-n1000-5](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/nyc-n1000-5.15_4232.txt) | 15 | 4232 | TRB | 09-aug-26
 [poa-n1000-1](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-1.29_8127.txt) | 29 | 8127 | TRB | 09-aug-26
 [poa-n1000-2](https://github.com/cssartori/pdptw-instances/blob/master/solutions/files/poa-n1000-2.45_10682.txt) | 45 | 10682 | ARS | 05-apr-25
@@ -424,6 +424,8 @@ CH &nbsp; &mdash; &nbsp; CUHKSZ and HWGTS. Joint unpublished work by China Huawe
 HGIM &nbsp; &mdash; &nbsp; Alexander Yuskov (a.yuskov `at` g `dot` nsu `dot` ru), Igor Kulachenko (ink `at` math `dot` nsc `dot` ru), Yury Kochetov, Igor Vasilyev, Zhangdong, Chenjuan, Huanghaohan, Wanglongfei. TBD.
 
 HS &nbsp; &mdash; &nbsp; Gerhard Hiermann and Maximilian Schiffer. A decomposition-based approach for large-scale pickup and delivery problems [arXiv](https://arxiv.org/abs/2405.00230)
+
+PZJYQ &nbsp; &mdash; &nbsp; Pengfei He, Zixiang Tain, Jin-Kao Hao, Yuning Chen, and Qinghua Wu. A General AAX for Directed and Undirected Routing Problems
 
 R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)
 

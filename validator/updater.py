@@ -108,6 +108,7 @@ def write_solution_tables(nbks):
 			"CH &nbsp; &mdash; &nbsp; CUHKSZ and HWGTS. Joint unpublished work by China Huawei (HW GTS optimization Lab) and Chinese University of Hong Kong (Shenzhen, CUHKSZ).  \n\n"
 			"HGIM &nbsp; &mdash; &nbsp; Alexander Yuskov (a.yuskov `at` g `dot` nsu `dot` ru), Igor Kulachenko (ink `at` math `dot` nsc `dot` ru), Yury Kochetov, Igor Vasilyev, Zhangdong, Chenjuan, Huanghaohan, Wanglongfei. TBD.\n\n"
 			"HS &nbsp; &mdash; &nbsp; Gerhard Hiermann and Maximilian Schiffer. A decomposition-based approach for large-scale pickup and delivery problems [arXiv](https://arxiv.org/abs/2405.00230)\n\n"
+			"PZJYQ &nbsp; &mdash; &nbsp; Pengfei He, Zixiang Tain, Jin-Kao Hao, Yuning Chen, and Qinghua Wu. A General AAX for Directed and Undirected Routing Problems\n\n"
 			"R &nbsp; &mdash; &nbsp; Isaiah Reimer &nbsp; (isaiah `dot` reimer `at` rideco `dot` com) - [RideCo](https://rideco.com/)\n\n"
 			"SB &nbsp; &mdash; &nbsp; Carlo Sartori and Luciana Buriol. A study on the Pickup and Delivery Problem with Time Windows: Matheuristics and new instances. Available in [COR](https://doi.org/10.1016/j.cor.2020.105065)\n\n"
 			"Shobb &nbsp; &mdash; &nbsp; Shobb &nbsp; ( shobb `at` narod `dot` ru )\n\n"
